@@ -66,8 +66,8 @@ export default class SceneInit {
     window.addEventListener('resize', () => this.onWindowResize(), false);
 
     // NOTE: Load space background.
-    // this.loader = new THREE.TextureLoader();
-    // this.scene.background = this.loader.load('./pics/space.jpeg');
+     this.loader = new THREE.TextureLoader();
+     this.scene.background = this.loader.load('./pics/space.jpeg');
 
     // NOTE: Declare uniforms to pass into glsl shaders.
     // this.uniforms = {

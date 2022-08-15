@@ -1,0 +1,17 @@
+.coming{
+  color: #fff;
+  position: fixed;
+	top: 10px;
+	width: 100%;
+	text-align: center;
+	z-index: 100;
+	display:block;
+  margin-top: 400px;
+}
+
+.header{
+  font-size: 1.875rem;
+}
+.fall{
+  font-size: 3.75rem;
+}
