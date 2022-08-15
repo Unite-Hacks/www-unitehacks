@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Text:ital,wght@1,500&display=swap');
+
+
 .coming{
   color: #fff;
   position: fixed;
@@ -7,6 +10,7 @@
 	z-index: 100;
 	display:block;
   margin-top: 400px;
+  font-family: 'Red Hat Text', sans-serif;
 }
 
 .header{
