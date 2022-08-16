@@ -6,6 +6,7 @@ import styles from "./styles/home.module.css";
 import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader.js';
 
 import SceneInit from './lib/SceneInit';
+import Navbar from './components/Navbar';
 
 function App() {
   useEffect(() => {
@@ -47,6 +48,7 @@ function App() {
   return (
     
     <div>
+ 
       <div className={styles.coming}>
         <div className={styles.header}>
       unite hacks is coming this
@@ -55,6 +57,7 @@ function App() {
        FALL 2022
        </div>
       </div>
+      <Navbar />
       <canvas id="myThreeJsCanvas" />
     </div>
   );
