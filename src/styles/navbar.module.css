@@ -38,3 +38,14 @@
   font-size:24px;
   font-family: 'Boogaloo', cursive;
 }
+
+.donation {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  right: 50%;
+  transform: translateX(-50%) translateY(-50%);;
+  z-index: 9999;
+  height: min(70vh, 637px);
+  width: min(90vw, 429px);
+}

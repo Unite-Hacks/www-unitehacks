@@ -46,9 +46,7 @@ function App() {
   }, []);
 
   return (
-    
     <div>
- 
       <div className={styles.coming}>
         <div className={styles.header}>
       unite hacks is coming this
