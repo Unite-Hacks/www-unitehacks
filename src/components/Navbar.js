@@ -14,7 +14,7 @@ const Navbar = () => {
         <button className={styles.button} onClick={() => setIsActive(!isActive)}>
         Sponsor Us
       </button>
-        {isActive ? <iframe className={styles.donation} src='https://bank.hackclub.com/donations/start/unite-hacks' width={'80vw'} height={'80vh'}></iframe> : ''}
+        <iframe className={styles.donation} src='https://bank.hackclub.com/donations/start/unite-hacks' style={{ display: isActive ? 'block' : 'none'}}></iframe>
       </div>
     </div>
   );
