@@ -48,5 +48,6 @@
   z-index: 9999;
   height: min(70vh, 637px);
   width: min(90vw, 429px);
-  border: none
+  border: none;
+  border-radius: 8px;
 }
