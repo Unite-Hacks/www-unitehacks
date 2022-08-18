@@ -87,7 +87,7 @@
 .plane{
   margin-left: 550px;
   cursor: pointer;
-  -webkit-text-stroke: 5px #ffff;
+  -webkit-text-stroke: 1px #ffff;
   -webkit-text-fill-color: transparent;
 }
 .calendar{
@@ -108,7 +108,7 @@
    .hugetext{
     margin-left: 10px;
     font-size: 50px;
-    -webkit-text-stroke: 5px #ffff;
+    -webkit-text-stroke: 1px #ffff;
     -webkit-text-fill-color: transparent;
    
   }
@@ -137,7 +137,7 @@
    .hugetext{
     margin-left: 10px;
     font-size: 50px;
-    -webkit-text-stroke: 5px #ffff;
+    -webkit-text-stroke: 1px #ffff;
     -webkit-text-fill-color: transparent;
    
   }
@@ -168,7 +168,7 @@
    .hugetext{
     margin-left: 10px;
     font-size: 50px;
-    -webkit-text-stroke: 5px #ffff;
+    -webkit-text-stroke: 1px #ffff;
     -webkit-text-fill-color: transparent;
    
   }
