@@ -13,7 +13,7 @@ const Sec1 = () => {
       </div>
       <div className={styles.buttonWrapper}>
         <button className={styles.button} onClick={() => setIsActive(!isActive)}>
-        Donate Us
+        Donate
       </button>
         <iframe className={styles.donation} src='https://bank.hackclub.com/donations/start/unite-hacks' style={{ display: isActive ? 'block' : 'none'}}></iframe>
       </div>
