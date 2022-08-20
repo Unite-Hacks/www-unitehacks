@@ -6,7 +6,7 @@
   align-items: centers;
 }
 .header{
-  font-size: 60px;
+  font-size: 45px;
   align-items: center;
   color: #ffff;
   font-family: 'Red Hat Text', sans-serif;
@@ -43,10 +43,10 @@
 }
 .buttonWrapper{
   margin-top: 20px;
-  margin-left: 250px;
+  margin-left: 50px;
 }
 .plane{
-  margin-left: 1000px;
+  margin-left: 880px;
   cursor: pointer;
 }
 
@@ -60,12 +60,11 @@
   margin-left: 250px;
   margin-top: 20px;
   background: #fff;
-  margin-right: 2000px;
-  text-align: center;
-  border-radius: 4px;
-  padding-top: 10px;
+  width: 166px; 
+  padding-top:10px;
   padding-bottom: 10px;
-  width: 20%;
+  border-radius: 4px;
+  text-align: center;
   font-family: 'Red Hat Text', sans-serif;
   -webkit-text-fill-color:  #548D40;
   ;
@@ -120,7 +119,7 @@
     cursor: pointer;
   }
   .calendar{
-    width: 30%;
+  
     margin-left: 10px;
     font-family: 'Red Hat Text', sans-serif;
     -webkit-text-fill-color:  #548D40;
@@ -149,7 +148,7 @@
     cursor: pointer;
   }
   .calendar{
-    width: 70%;
+    
     margin-left: 10px;
     font-family: 'Red Hat Text', sans-serif;
     -webkit-text-fill-color:  #548D40;
@@ -180,7 +179,7 @@
     cursor: pointer;
   }
   .calendar{
-    width: 70%;
+    width: 35%;
     margin-left: 10px;
     font-family: 'Red Hat Text', sans-serif;
     -webkit-text-fill-color:  #548D40;
@@ -188,4 +187,7 @@
   .buttonWrapper{
     margin-left: 10px;
   }
+}
+.boxContainer{
+display: flex;
 }
