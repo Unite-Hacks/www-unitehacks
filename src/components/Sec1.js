@@ -1,10 +1,25 @@
-import React, {useState} from 'react';
+import React, {useRef, useState, useEffect} from 'react';
 import styles from "../styles/header.module.css"
 
 const Sec1 = () => {
   const unite = "🆄🅽🅸🆃🅴";
   console.log(unite);
   const [isActive, setIsActive] = useState(false);
+  const donateRef = useRef();
+
+
+  useEffect(() => {
+    let handler = (event) => {
+      if (!donateRef.current.contains(event.target)) {
+        setIsActive(false);
+      }
+    }
+
+    document.addEventListener('mousedown', handler )
+
+    return () => document.removeEventListener('mousedown', handler);
+  })
+
   return (
     <div>
       <div className={styles.hugetext}>
@@ -18,7 +33,7 @@ const Sec1 = () => {
         <button className={styles.button} onClick={() => setIsActive(!isActive)}>
         Donate
       </button>
-        <iframe className={styles.donation} src='https://bank.hackclub.com/donations/start/unite-hacks' style={{ display: isActive ? 'block' : 'none'}}></iframe>
+        <iframe ref={donateRef} className={styles.donation} src='https://bank.hackclub.com/donations/start/unite-hacks' style={{ display: isActive ? 'block' : 'none'}}></iframe>
       </div>
       </div>
     </div>
