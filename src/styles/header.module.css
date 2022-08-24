@@ -3,7 +3,7 @@
 .container{
   width: 82%;
   margin-top: 150px;
-  align-items: centers;
+  align-items: center;
 }
 .header{
   font-size: 45px;
@@ -40,6 +40,7 @@
 
 .align{
   margin-left: 50px;
+  align-items: center;
 }
 .buttonWrapper{
   margin-top: 20px;
