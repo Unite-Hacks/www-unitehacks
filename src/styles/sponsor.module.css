@@ -1,0 +1,30 @@
+.sponsor {
+  display: inline-block;
+  margin-left: 20px;
+  margin-right: 20px;
+  width: fit-content;
+  margin-bottom: 2rem;
+  overflow-x:hidden;
+}
+.sponsor img {
+  border-radius: 10px;
+}
+
+.heading {
+  margin-top: 6rem;
+  font-weight: bolder;
+  width: max-content;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: min(5vw, 59.3px);
+  margin-bottom: 0rem;
+}
+
+.sponsorGrid {
+  margin-top: 25px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+}
