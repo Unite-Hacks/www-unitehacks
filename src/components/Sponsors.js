@@ -19,7 +19,7 @@ const Sponsors = () => {
               </a>
             </div>
             <div className={styles.sponsor}>
-              <a rel="noreferrer" href="https://www.desmos.com" target="_blank">
+              <a rel="noreferrer" href="https://www.echo3d.co/" target="_blank">
                 <img src={echo3d} alt="echo" width="200"></img>
               </a>
             </div>
