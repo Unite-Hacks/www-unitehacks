@@ -29,7 +29,7 @@ const Header = () => {
       onMouseLeave={() => handleShow(false)}/>
       </div>
         <span><img src={arrow} alt={arrow} draggable="false" className={styles.arrow}/></span>
-        <span className={styles.header}>come together and</span>
+        <span className={styles.header}>Come together and</span>
         <span className={styles.align}><img src={uparrow} alt={arrow} draggable="false" className={styles.arrow}/></span>
       </div>
     </div>
