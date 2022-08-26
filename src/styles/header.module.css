@@ -5,6 +5,10 @@
   margin-top: 150px;
   align-items: center;
 }
+
+.planemob{
+  display: none;
+}
 .header{
   font-size: 45px;
   align-items: center;
@@ -162,7 +166,7 @@
 @media only screen and (max-width: 414px) {
 
   .header{
-    font-size: 15px;
+    font-size: 16px;
     margin-left: 20px;
    }
    .hugetext{
@@ -175,9 +179,14 @@
   .arrow{
     width: 50px;
   }
-  .plane{
-    margin-left: 200px;
+
+  .planemob{
+    display: block;
+    margin-left: 300px;
     cursor: pointer;
+  }
+  .plane{
+    display: none;
   }
   .calendar{
     width: 35%;
