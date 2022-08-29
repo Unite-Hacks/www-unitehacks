@@ -1,3 +1,37 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+  background: linear-gradient(
+      144.89deg,
+      rgba(114, 186, 88, 0.8) 20.64%,
+      rgba(91, 185, 239, 0.8) 90.74%
+    )
+    no-repeat;
+  height: 100vh;
+}
+
+.g-heading {
+  background: linear-gradient(94.2deg, #5bb9ef 12.65%, #72ba58 75.53%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.g-bg {
+  background: linear-gradient(94.2deg, #5bb9ef 12.65%, #72ba58 75.53%);
+}
+
+.g-bg-reverse {
+  background: linear-gradient(
+    118.01deg,
+    rgba(114, 186, 88, 0.9409) -1.24%,
+    rgba(91, 185, 239, 0.97) 100%
+  );
+}
+
+.text-outline {
+  -webkit-text-stroke: 1px white;
+
+}
