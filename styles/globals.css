@@ -31,7 +31,35 @@ body {
   );
 }
 
+.text-outline-bold {
+  -webkit-text-stroke: 4px white;
+}
+
 .text-outline {
   -webkit-text-stroke: 1px white;
+}
 
+.text-h {
+  font-size: min(6.5vw, 39px);
+}
+
+.text-h-xl {
+  font-size: min(11vw, 57px);
+}
+
+.text-sh {
+  font-size: min(6vw, 25px);
+}
+
+.text-sh-xl {
+  font-size: min(7vw, 50px);
+}
+
+.text-h-p {
+  font-size: min(5vw, 30px);
+}
+
+.text-h-xxxl {
+  font-size: min(22vw, 142.8px);
+  line-height: 1;
 }
