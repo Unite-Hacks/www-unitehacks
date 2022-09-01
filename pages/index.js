@@ -5,7 +5,7 @@ import locationicon from "../public/assets/locationicon.svg";
 export default function Home() {
   return (
     <>
-      <div className="bg-white w-[95%] mx-auto rounded-md flex flex-col justify-center items-center">
+      <div className="bg-white w-[95%] mx-auto rounded-md flex flex-col justify-center items-center mt-10">
         <div className="mt-4 mb-12">
           <h2 className="font-extrabold text-2xl text-h">
             JOIN US & UNITE THE <br />
