@@ -1,6 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Paytone+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Text:ital,wght@1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 body {
   background: linear-gradient(
@@ -9,7 +12,7 @@ body {
       rgba(91, 185, 239, 0.8) 90.74%
     )
     no-repeat;
-  height: 100vh;
+  height: 100%;
 }
 
 .g-heading {
@@ -60,6 +63,33 @@ body {
 }
 
 .text-h-xxxl {
+  font-family: 'Paytone One', sans-serif;
   font-size: min(22vw, 142.8px);
   line-height: 1;
 }
+
+.text-why{
+  font-family: 'Paytone One', sans-serif;
+  font-size: 38.27px;
+}
+
+.text-bold-why{
+  font-size: 82px;
+  }
+
+  .text-design{
+
+    font-style: italic;
+    font-size: 26.6px;
+    font-family: 'Red Hat Text', sans-serif;
+  }
+
+  .p-design{
+  font-size: 17.96px;
+  font-family: 'Roboto', sans-serif;
+  }
+
+  .text-faq{
+  font-size: 60px;
+  font-family: 'Paytone One', sans-serif;
+  }

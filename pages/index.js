@@ -1,4 +1,6 @@
 import React from "react";
+import Attend from "../components/Attend";
+import Faq from "../components/Faq";
 import DateTime from "../components/Time";
 import locationicon from "../public/assets/locationicon.svg";
 
@@ -31,6 +33,8 @@ export default function Home() {
         </div>
       </div>
       <DateTime />
+      <Attend />
+      <Faq />
     </>
   );
 }

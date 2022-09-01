@@ -34,7 +34,30 @@ const DateTime = () => {
             the venue
           </h2>
           <p className="text-h-p text-white">
-          Somewhere in San Francisco, California, or around the Bay Area! Will be finalized soon.
+            Somewhere in San Francisco, California, or around the Bay Area! Will
+            be finalized soon.
+          </p>
+        </div>
+      </div>
+      <div className="w-c mx-auto flex justify-center rounded-md bg-white mt-5">
+        <div className="w-c border-2 border-white">
+          <h2 className="text-sh-xl font-extrabold italic g-heading">
+            covid-19
+          </h2>
+          <p className="text-h-p">
+            COVID-19 vaccination and proof of a negative test 24 hours prior is
+            required.
+          </p>
+        </div>
+      </div>
+      <div className="w-c mx-auto flex justify-center rounded-md border-[5px] border-white mt-5">
+        <div className="w-c">
+          <h2 className="text-sh-xl font-extrabold italic text-white">
+            eligibility
+          </h2>
+          <p className="text-h-p text-white">
+            All high school & upper middle school students are welcome to join
+            us at Unite!
           </p>
         </div>
       </div>
