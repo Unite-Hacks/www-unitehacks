@@ -26,9 +26,9 @@ const Sec1 = () => {
       UNITE.
       </div>
       <div className={styles.boxContainer}>
-      <div className={styles.calendar}>
+      <button className={styles.calendar}>
       THIS FALL 2022
-      </div>
+      </button>
       <div className={styles.buttonWrapper}>
         <button className={styles.button} onClick={() => setIsActive(!isActive)}>
         Donate
