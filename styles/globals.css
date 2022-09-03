@@ -106,3 +106,24 @@ body {
   font-family: 'Paytone One', sans-serif;
   font-size: 47.08px;
  }
+
+ .button{
+ font-size: 20.91px;
+ }
+
+ .donation {
+  position: absolute;
+  top: 320%;
+  left: 50%;
+  right: 50%;
+  transform: translateX(-50%) translateY(-50%);;
+  z-index: 9999;
+  height: min(70vh, 637px);
+  width: min(90vw, 429px);
+  border: none;
+  border-radius: 8px;
+}
+
+.team{
+font-size: 39px;
+}

@@ -2,6 +2,7 @@ import React from "react";
 import Attend from "../components/Attend";
 import Faq from "../components/Faq";
 import Sponsor from "../components/Sponsor";
+import Team from "../components/Team";
 import DateTime from "../components/Time";
 import locationicon from "../public/assets/locationicon.svg";
 
@@ -37,6 +38,7 @@ export default function Home() {
       <Attend />
       <Faq />
       <Sponsor />
+      <Team />
     </>
   );
 }
