@@ -1,6 +1,7 @@
 import React from "react";
 import Attend from "../components/Attend";
 import Faq from "../components/Faq";
+import Sponsor from "../components/Sponsor";
 import DateTime from "../components/Time";
 import locationicon from "../public/assets/locationicon.svg";
 
@@ -19,7 +20,7 @@ export default function Home() {
           <div className="space-y-4">
             <div className="g-bg rounded-md p-1">
               <div className="flex space-x-4 py-1 justify-center h-[90%] bg-white g-border rounded-md border-black ">
-                <img src={locationicon.src} />
+                <img src={locationicon.src}  alt="location"/>
                 <span className="font-bold italic text-sh">
                   SAN FRANCISCO, CA
                 </span>
@@ -35,6 +36,7 @@ export default function Home() {
       <DateTime />
       <Attend />
       <Faq />
+      <Sponsor />
     </>
   );
 }
