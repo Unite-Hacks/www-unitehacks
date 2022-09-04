@@ -44,8 +44,7 @@ const Sponsor = () => {
    <div className="w-c mx-auto flex justify-center rounded-md border-[5px] border-white mt-5">
         <div className="w-c">
           <h2 className="text-sh-xl font-extrabold italic text-white">
-          interested in<br></br> sponsoring or <br>
-          </br>supporting?
+          interested in sponsoring or supporting?
           </h2>
           <div className='mt-5'>
           <div className='button text-center bg-white text-[#72BA58F7] rounded-md p-1 py-1'>

@@ -127,3 +127,12 @@ body {
 .team{
 font-size: 39px;
 }
+
+.faqbutton{
+  cursor: pointer;
+}
+
+.unitetext{
+  font-size: 20px;
+  font-family: 'Red Hat Text', sans-serif;
+}

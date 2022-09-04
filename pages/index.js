@@ -1,6 +1,7 @@
 import React from "react";
 import Attend from "../components/Attend";
 import Faq from "../components/Faq";
+import Footer from "../components/Footer";
 import Sponsor from "../components/Sponsor";
 import Team from "../components/Team";
 import DateTime from "../components/Time";
@@ -39,6 +40,7 @@ export default function Home() {
       <Faq />
       <Sponsor />
       <Team />
+      <Footer />
     </>
   );
 }
