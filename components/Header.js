@@ -1,6 +1,6 @@
 import React from "react";
 import locationicon from "../public/assets/locationicon.svg";
-import date from '../public/assets/date'
+import date from '../public/assets/date.js'
 import globe from '../public/assets/earth.jpg'
 export default function Hero() {
     return (
