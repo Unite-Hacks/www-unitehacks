@@ -11,7 +11,7 @@ const Footer = () => {
           <div className='mx-10  text-sh-xl font-extrabold italic g-heading'>
           follow our socials <br/>for updates!
           </div>
-          <div className='flex text-center justify-center items-center gap-24 mt-5 pb-5'>
+          <div className='flex text-center justify-center items-center gap-20 mt-5 pb-5'>
             <a href='https://twitter.com/UniteHacks'>
           <div> <img src={Twitter.src} /></div>
           </a>

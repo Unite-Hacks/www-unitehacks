@@ -180,3 +180,115 @@ body {
 .venue-img {
   grid-area: vimg;
 }
+
+.linkContainer {
+  display: flex;
+}
+
+.links {
+  text-decoration: none;
+  margin-left: 1.3rem;
+  font-size: 22px;
+}
+
+.hamIcon {
+  display: none;
+  width: 2.8rem;
+  cursor: pointer;
+  position: absolute;
+  z-index: 99;
+  right: 9vw;
+}
+
+.crossIcon {
+  display: none;
+  cursor: pointer;
+  position: absolute;
+  z-index: 999;
+  right: 9vw;
+  font-size: 2.2rem;
+  color: black;
+}
+
+@media (max-width: 1024px) {
+  .linkContainer {
+    display: none;
+  }
+
+  .hamIcon { 
+    display: flex;
+  }
+
+  .crossIcon {
+    display: flex;
+  }
+}
+
+
+.container {
+  background: transparent; 
+  z-index: 999;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 82%;
+  margin-left: auto;
+  margin-right: auto;
+  height: 5rem;
+}
+
+
+.button4{
+font-size: 22px;
+margin-left: 1.3rem;
+}
+
+.Container {
+  display: none;
+}
+
+@media (max-width: 1024px) {
+  .Container {
+  overflow-y: hiiden;
+    height: 100%;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+
+    /* right: 0; */
+    
+    background: white;
+    background: white;
+  }
+
+  .sidebarLinkHolder {
+  margin-left: 15px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 16vh;
+    /* justify-content: space-between; */
+  }
+
+  .link {
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+}
+
+
+.background-regi{
+  margin-left: 40px;
+  margin-right: 40px;
+  font-size: 32px;
+  background: linear-gradient(246.83deg, rgba(91, 185, 239, 0.8) 24.08%, rgba(114, 186, 88, 0.776) 73%);
+
+}
