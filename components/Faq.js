@@ -4,7 +4,7 @@ import FaqCard from "./FaqCard";
 const faqData = [
   {
     title: 'What is a "hackathon" supposed to be?',
-    ans: "",
+    ans: "You do not need to have any prior experience to attend Unite! Beginner and advanced hackers are all welcome!",
   },
   {
     title: "Do I need prior experience to attend?",
@@ -13,15 +13,15 @@ const faqData = [
 
   {
     title: "How much does it cost to attend Unite?",
-    ans: "",
+    ans: "You do not need to have any prior experience to attend Unite! Beginner and advanced hackers are all welcome!",
   },
   {
     title: "What might weather be like?",
-    ans: "",
+    ans: "You do not need to have any prior experience to attend Unite! Beginner and advanced hackers are all welcome!",
   },
   {
     title: 'What is a "hackathon" supposed to be?',
-    ans: "",
+    ans: "You do not need to have any prior experience to attend Unite! Beginner and advanced hackers are all welcome!",
   },
 ];
 

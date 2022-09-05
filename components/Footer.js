@@ -12,9 +12,17 @@ const Footer = () => {
           follow our socials <br/>for updates!
           </div>
           <div className='flex text-center justify-center items-center gap-24 mt-5 pb-5'>
+            <a href='https://twitter.com/UniteHacks'>
           <div> <img src={Twitter.src} /></div>
+          </a>
+
+          <a href='https://www.instagram.com/unitehacks/'>
           <div><img src={Insta.src} /></div>
+          </a>
+          
+          <a href='https://www.linkedin.com/company/unite-hacks/?viewAsMember=true'> 
           <div><img src={linkedin.src} /></div>
+          </a>
           </div>
           </div>
         </div>

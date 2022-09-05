@@ -51,7 +51,9 @@ const Sponsor = () => {
               </h2>
               <div className='mt-5'>
               <div className='button text-center bg-white text-[#72BA58F7] rounded-md p-1 py-1'>
+                <a href='http://www.unitehacks.com/unite_hacks.pdf'>
               <button>Sponsor Prospectus</button>
+              </a>
               </div>
               <div className='button text-center mt-5 bg-white text-[#72BA58F7] rounded-md p-1 py-1 mb-5' onClick={() => setIsActive(!isActive)}>
               <button >Make A Donation</button>

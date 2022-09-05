@@ -25,8 +25,10 @@ export default function Hero() {
                 </div>
                 </div>
                 <button className="g-bg-reverse p-1 py-1 w-full font-bold  text-transparent italic text-sh rounded-md">
+                 <a href="https://register.unitehacks.com/">
                   <span className="text-outline">REGISTER FOR</span>{" "}
                   <span className="text-white">UNITE!</span>
+                  </a>
                 </button>
               </div>
             </div>
