@@ -1,9 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import url('https://fonts.googleapis.com/css2?family=Paytone+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Text:ital,wght@1,600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Paytone+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Text:ital,wght@1,600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 
 body {
   background: linear-gradient(
@@ -63,60 +63,59 @@ body {
 }
 
 .text-h-xxxl {
-  font-family: 'Paytone One', sans-serif;
+  font-family: "Paytone One", sans-serif;
   font-size: min(22vw, 142.8px);
   line-height: 1;
 }
 
-.text-why{
-  font-family: 'Paytone One', sans-serif;
+.text-why {
+  font-family: "Paytone One", sans-serif;
   font-size: 38.27px;
 }
 
-.text-bold-why{
+.text-bold-why {
   font-size: 82px;
-  }
+}
 
-  .text-design{
+.text-design {
+  font-style: italic;
+  font-size: 26.6px;
+  font-family: "Red Hat Text", sans-serif;
+}
 
-    font-style: italic;
-    font-size: 26.6px;
-    font-family: 'Red Hat Text', sans-serif;
-  }
-
-  .p-design{
+.p-design {
   font-size: 17.96px;
-  font-family: 'Roboto', sans-serif;
-  }
+  font-family: "Roboto", sans-serif;
+}
 
-  .text-faq{
+.text-faq {
   font-size: 60px;
-  font-family: 'Paytone One', sans-serif;
-  }
+  font-family: "Paytone One", sans-serif;
+}
 
-  .faq{
+.faq {
   font-size: 21px;
-  }
+}
 
- .thank{
- font-size: 28.7px;
- }
+.thank {
+  font-size: 28.7px;
+}
 
- .spon{
-  font-family: 'Paytone One', sans-serif;
+.spon {
+  font-family: "Paytone One", sans-serif;
   font-size: 47.08px;
- }
+}
 
- .button{
- font-size: 20.91px;
- }
+.button {
+  font-size: 20.91px;
+}
 
- .donation {
+.donation {
   position: absolute;
   top: 320%;
   left: 50%;
   right: 50%;
-  transform: translateX(-50%) translateY(-50%);;
+  transform: translateX(-50%) translateY(-50%);
   z-index: 9999;
   height: min(70vh, 637px);
   width: min(90vw, 429px);
@@ -124,24 +123,54 @@ body {
   border-radius: 8px;
 }
 
-.team{
-font-size: 39px;
+.team {
+  font-size: 39px;
 }
 
-.faqbutton{
+.faqbutton {
   cursor: pointer;
 }
 
-.unitetext{
+.unitetext {
   font-size: 20px;
-  font-family: 'Red Hat Text', sans-serif;
-}
-.about{
-  font-size: 32px;
-  font-family: 'Red Hat Text', sans-serif;
+  font-family: "Red Hat Text", sans-serif;
 }
 
-.button2{
-  font-size: 32px;
-  font-family: 'Red Hat Text', sans-serif;
+
+
+@media (min-width: 768px) {
+  .grid-layout {
+  margin-top: 10px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas:
+      "venue vimg"
+      "time date"
+      "eli guidelines";
+  }
+}
+
+.dates {
+  grid-area: date;
+}
+
+.time {
+  grid-area: time;
+}
+
+.venue {
+  grid-area: venue;
+}
+
+.guidelines {
+  grid-area: guidelines;
+}
+
+.eligibility {
+  grid-area: eli;
+}
+
+.venue-img {
+  grid-area: vimg;
 }
