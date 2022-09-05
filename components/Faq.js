@@ -1,55 +1,41 @@
-import React from 'react';
-import Arrow from "../public/assets/arrow.svg"
+import React from "react";
+import FaqCard from "./FaqCard";
+
+const faqData = [
+  {
+    title: 'What is a "hackathon" supposed to be?',
+    ans: "",
+  },
+  {
+    title: "Do I need prior experience to attend?",
+    ans: "You do not need to have any prior experience to attend Unite! Beginner and advanced hackers are all welcome!",
+  },
+
+  {
+    title: "How much does it cost to attent Unite?",
+    ans: "",
+  },
+  {
+    title: "What might weather be like?",
+    ans: "",
+  },
+  {
+    title: 'What is a "hackathon" supposed to be?',
+    ans: "",
+  },
+];
 
 const Faq = () => {
   return (
-   <>
-   <div className='w-c mx-auto mt-5'>
-    <div className='text-faq font-extrabold text-white'>FAQ</div>
-   </div>
-   <div className='w-c mx-auto justify-center rounded-md bg-white mt-5 flex items-center'>
-    <div className='faqbutton  mx-2'>
-    <img src={Arrow.src} />
-    </div>
-    <div className='faq w-c mx-auto'>What is a “hackathon”<br></br> supposed to be?</div>
-   </div>
-
-   <div className='w-c mx-auto justify-center rounded-md bg-white mt-5 flex items-center'>
-    <div className='faqbutton mx-2'>
-    <img src={Arrow.src} />
-    </div>
-    <div className='faq w-c mx-auto'>Do I need any prior<br></br> experience to attend?</div>
-   </div>
-
-   <div className='w-c mx-auto justify-center rounded-md bg-white mt-5 flex items-center'>
-    <div className='faqbutton mx-2'>
-    <img src={Arrow.src} />
-    </div>
-    <div className='faq w-c mx-auto'>How much does it cost <br></br> to attend Unite?</div>
-   </div>
-
-   <div className='w-c mx-auto justify-center rounded-md bg-white mt-5 flex items-center'>
-    <div className='faqbutton mx-2'>
-    <img src={Arrow.src} />
-    </div>
-    <div className='faq w-c mx-auto'>What is a “hackathon”<br></br> supposed to be?</div>
-   </div>
-
-   <div className='w-c mx-auto justify-center rounded-md bg-white mt-5 flex items-center'>
-    <div className='faqbutton mx-2'>
-    <img src={Arrow.src} />
-    </div>
-    <div className='faq w-c mx-auto'>What is a “hackathon”<br></br> supposed to be?</div>
-   </div>
-
-   <div className='w-c mx-auto justify-center rounded-md bg-white mt-5 flex items-center'>
-    <div className='faqbutton mx-2'>
-    <img src={Arrow.src} />
-    </div>
-    <div className='faq w-c mx-auto'>What might the<br></br> weather be like?</div>
-   </div>
-   </>
+    <>
+      <div className="w-c mx-auto mt-5">
+        <div className="text-faq font-extrabold text-white">FAQ</div>
+        {faqData.map(({ title, ans }, i) => (
+          <FaqCard title={title} ans={ans} key={i} />
+        ))}
+      </div>
+    </>
   );
-}
+};
 
 export default Faq;
