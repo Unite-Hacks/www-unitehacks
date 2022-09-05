@@ -12,7 +12,7 @@ const faqData = [
   },
 
   {
-    title: "How much does it cost to attent Unite?",
+    title: "How much does it cost to attend Unite?",
     ans: "",
   },
   {

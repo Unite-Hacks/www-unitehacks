@@ -112,7 +112,7 @@ body {
 
 .donation {
   position: absolute;
-  top: 320%;
+  top: 250%;
   left: 50%;
   right: 50%;
   transform: translateX(-50%) translateY(-50%);
@@ -121,6 +121,12 @@ body {
   width: min(90vw, 429px);
   border: none;
   border-radius: 8px;
+}
+
+@media only screen and (max-width: 1280px){
+    .donation{
+    top: 2700px;
+    }
 }
 
 .team {

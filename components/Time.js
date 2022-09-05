@@ -1,8 +1,8 @@
 const Mystyle = {
-  backgroundPosition: "center  center",
+  backgroundPosition: "auto",
   objectFit: "cover",
   backgroundRepeat: "no-repeat",
-  backgroundImage: `url("https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg")`
+  backgroundImage: `url("https://cdn.discordapp.com/attachments/965459788601364490/1016412307447877672/image_2_2.png")`
 };
 const DateTime = () => {
   return (
@@ -41,14 +41,14 @@ const DateTime = () => {
             <span className=" font-extraboldx text-7xl text-outline-bold text-transparent">
               21
             </span>
-            <span className="font-bold italic ">@ 6:00 PM</span>
+            <span className="font-bold italic ">@6:00 PM</span>
           </div>
           <div className="flex flex-col w-[49%] border-[5px] border-white justify-center p-3 items-center rounded-md">
             <span className="font-bold italic ">OCTOBER</span>
             <span className="font-extrabold text-outline-bold text-7xl text-transparent">
               23
             </span>
-            <span className="font-bold italic text-3xl text-h">@ 12:00 PM</span>
+            <span className="font-bold italic text-3xl text-h">@12:00 PM</span>
           </div>
         </div>
           <div className="flex justify-center p-3 order-5 sm:-order-none rounded-md border-[5px]  col-span-1 border-white mt-5">
