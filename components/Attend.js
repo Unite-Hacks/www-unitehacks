@@ -1,5 +1,5 @@
 import React from 'react';
-import plane from '../public/assets/plane';
+import plane from '../public/assets/plane.svg';
 
 
 
