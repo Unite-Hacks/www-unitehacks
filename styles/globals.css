@@ -137,18 +137,22 @@ body {
 }
 
 .grid-layout {
-  display: grid;
-  grid-template-rows: 2fr 2fr;
-  grid-template-columns: 2fr 2fr;
-  grid-template-areas:
-    "venue vimg"
-    "time date"
-    "eli guidelines";
+}
+
+@media (min-width: 768px) {
+  .grid-layout {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas:
+      "venue vimg"
+      "time date"
+      "eli guidelines";
+  }
 }
 
 .dates {
   grid-area: date;
-  width: 50%;
 }
 
 .time {
