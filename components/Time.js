@@ -1,13 +1,16 @@
+import bg from '../public/assets/bg.svg'
+
 const Mystyle = {
-  backgroundPosition: "auto",
-  objectFit: "cover",
+  backgroundSize:"150% 150%",
+  backgroundPosition:"center center",
+  objectFit:"contain",
   backgroundRepeat: "no-repeat",
   backgroundImage: `url("https://cdn.discordapp.com/attachments/965459788601364490/1016412307447877672/image_2_2.png")`
 };
 const DateTime = () => {
   return (
     <>
-      <div className="w-[95%] mx-auto flex flex-col sm:grid sm:grid-cols-2 grid-row-flow-1fr  sm:gap-3" id="overview">
+      <div className="w-[95%] mx-auto flex flex-col sm:grid sm:grid-cols-2 grid-row-flow-1fr  sm:gap-3">
         <div className="flex justify-center order-3 sm:-order-none rounded-md border-[5px]  col-span-1 p-3 border-white mt-5">
           <div className="w-c">
             <h2 className="text-sh-xl font-extrabold italic text-white">
@@ -20,8 +23,8 @@ const DateTime = () => {
           </div>
         </div>
 
-        <div className=" sm:flex hidden border-white border-[5px] justify-center rounded-md mt-5">
-          <div className="max-w-full  w-full border-2 " style={Mystyle} />
+        <div className=" sm:flex relative hidden border-white border-[5px] justify-center  mt-5" style={Mystyle}>
+
 
         </div>
         <div className=" flex justify-center order-2 sm:-order-none p-3  rounded-md bg-white mt-5">
