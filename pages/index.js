@@ -9,14 +9,13 @@ import Navbar from "../components/Navbar";
 export default function Home() {
   return (
     <>
-    <Navbar />
-    <Header/>
+      <Navbar />
+      <Header />
       <DateTime />
-    <Attend/>
-<Faq/>
-<Sponsor/>
-<Footer />
+      <Attend />
+      <Faq />
+      <Sponsor />
+      <Footer />
     </>
   );
 }
-

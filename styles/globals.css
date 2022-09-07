@@ -123,10 +123,10 @@ body {
   border-radius: 8px;
 }
 
-@media only screen and (max-width: 1280px){
-    .donation{
+@media only screen and (max-width: 1280px) {
+  .donation {
     top: 2700px;
-    }
+  }
 }
 
 .team {
@@ -142,11 +142,9 @@ body {
   font-family: "Red Hat Text", sans-serif;
 }
 
-
-
 @media (min-width: 768px) {
   .grid-layout {
-  margin-top: 10px;
+    margin-top: 10px;
     display: grid;
     grid-template-columns: 50% 50%;
     grid-template-rows: 1fr 1fr 1fr;
@@ -215,7 +213,7 @@ body {
     display: none;
   }
 
-  .hamIcon { 
+  .hamIcon {
     display: flex;
   }
 
@@ -224,9 +222,8 @@ body {
   }
 }
 
-
 .container {
-  background: transparent; 
+  background: transparent;
   z-index: 999;
   left: 0;
   right: 0;
@@ -239,10 +236,9 @@ body {
   height: 5rem;
 }
 
-
-.button4{
-font-size: 22px;
-margin-left: 1.3rem;
+.button4 {
+  font-size: 22px;
+  margin-left: 1.3rem;
 }
 
 .Container {
@@ -251,7 +247,7 @@ margin-left: 1.3rem;
 
 @media (max-width: 1024px) {
   .Container {
-  overflow-y: hiiden;
+    overflow-y: hidden;
     height: 100%;
     width: 100vw;
     display: flex;
@@ -262,13 +258,13 @@ margin-left: 1.3rem;
     left: 0;
 
     /* right: 0; */
-    
+
     background: white;
     background: white;
   }
 
   .sidebarLinkHolder {
-  margin-left: 15px;
+    margin-left: 15px;
     display: flex;
     flex-direction: column;
     margin-top: 16vh;
@@ -284,11 +280,13 @@ margin-left: 1.3rem;
   }
 }
 
-
-.background-regi{
+.background-regi {
   margin-left: 40px;
   margin-right: 40px;
   font-size: 32px;
-  background: linear-gradient(246.83deg, rgba(91, 185, 239, 0.8) 24.08%, rgba(114, 186, 88, 0.776) 73%);
-
+  background: linear-gradient(
+    246.83deg,
+    rgba(91, 185, 239, 0.8) 24.08%,
+    rgba(114, 186, 88, 0.776) 73%
+  );
 }
