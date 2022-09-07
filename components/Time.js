@@ -1,4 +1,4 @@
-import bg from '../public/assets/bg.svg'
+//import bg from '../public/assets/bg.svg'
 
 const Mystyle = {
   backgroundSize:"150% 150%",
