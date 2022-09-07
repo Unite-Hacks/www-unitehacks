@@ -18,22 +18,22 @@ const Sidebar = ({ visible }) => {
       }}
     >
       <div className="sidebarLinkHolder">
-        <a href="" className="link">
-          overview
+        <a href="#overview" className="link">
+          Overview
         </a>
-        <a href="" className="link">
-          why attend?
+        <a href="#attend" className="link">
+          Why Attend?
         </a>
-        <a href="" className="link">
-          frequently asked questions
-        </a>
-
-        <a href="" className="link">
-          sponsors
+        <a href="#faq" className="link">
+          Frequently Asked Questions
         </a>
 
-        <a href="" className="link">
-          meet the team
+        <a href="#sponsors" className="link">
+          Sponsors
+        </a>
+
+        <a href="#team" className="link">
+          Meet the team
         </a>
       </div>
       <a href="https://register.unitehacks.com/">

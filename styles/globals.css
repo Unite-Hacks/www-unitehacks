@@ -5,6 +5,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Red+Hat+Text:ital,wght@1,600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 
+html{
+  scroll-behavior: smooth;
+}
 body {
   background: linear-gradient(
       144.89deg,
@@ -290,3 +293,5 @@ body {
     rgba(114, 186, 88, 0.776) 73%
   );
 }
+
+

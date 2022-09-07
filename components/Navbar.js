@@ -33,12 +33,12 @@ const Navbar = () => {
           <div className="linkContainer">
             <div className="linkHolder flex items-center">
               <div className="links text-white">
-                <Link href="/" className="links text-white">
-                  Home
+                <Link href="#attend" className="links text-white">
+                  Why Attend?
                 </Link>
               </div>
               <div className="links text-white">
-                <Link href="/" className="links text-white">
+                <Link href="#faq" className="links text-white">
                   FAQ
                 </Link>
               </div>

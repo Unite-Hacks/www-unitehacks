@@ -24,7 +24,7 @@ const Sponsor = () => {
 
   return (
    <>
-   <div className="flex flex-col md:flex-row w-c mx-auto items-center justify-center">
+   <div className="flex flex-col md:flex-row w-c mx-auto items-center justify-center" id='sponsors'>
      <div className='w-[100%] md:w-[50%] align-middle mx-auto md:mx-0'>
        <div className='mt-10 '>
         <div className=''>

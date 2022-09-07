@@ -6,7 +6,7 @@ import linkedin from "../public/assets/linkedin.svg"
 const Footer = () => {
   return (
     <>
-        <div className='w-c mx-auto justify-center rounded-md bg-white mt-5'>
+        <div className='w-c mx-auto justify-center rounded-md bg-white mt-5' id='faq'>
           <div className='w-c flex flex-col md:flex-row justify-between'>
           <div className='mx-10  text-sh-xl font-extrabold italic g-heading'>
           follow our socials <br/>for updates!
