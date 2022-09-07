@@ -18,12 +18,6 @@ const Sidebar = ({ visible }) => {
       }}
     >
       <div className="sidebarLinkHolder">
-        <a href="#overview" className="link">
-          Overview
-        </a>
-        <a href="#attend" className="link">
-          Why Attend?
-        </a>
         <a href="#faq" className="link">
           Frequently Asked Questions
         </a>
