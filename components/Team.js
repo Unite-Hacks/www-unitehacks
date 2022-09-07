@@ -10,7 +10,7 @@ const Mystyle = {
 const Team = () => {
   return (
     <>
-      <div className='mt-5'>
+      <div className='mt-5' id="team">
         <div className="team text-center font-extrabold text-white">
           MEET THE TEAM
         </div>
