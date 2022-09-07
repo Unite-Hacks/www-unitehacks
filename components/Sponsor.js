@@ -34,11 +34,23 @@ const Sponsor = () => {
        </div>
        <div>
         <div className='w-c mx-auto flex gap-10'>
-          <div><img src={Wolfram.src} /></div>
-          <div><img src={Xyz.src} /></div>
+          <div>
+          <a rel="noreferrer" href="https://www.wolframalpha.com/" target="_blank">
+            <img src={Wolfram.src} />
+            </a>
+            </div>
+          <div>
+          <a rel="noreferrer" href="https://gen.xyz/" target="_blank">
+            <img src={Xyz.src} />
+            </a>
+            </div>
         </div>
         <div className='w-c mx-auto'>
-        <div><img src={Vercel.src} /></div>
+        <div>
+        <a rel="noreferrer" href="https://vercel.com/" target="_blank">
+          <img src={Vercel.src} />
+          </a>
+          </div>
         </div>
        </div>
      </div>
