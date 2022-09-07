@@ -6,7 +6,7 @@ import angles from '../public/assets/angles';
 const Attend = () => {
   return (
   <>
-  <div className='w-c mx-auto justify-around hidden md:flex mt-10'>
+  <div className='w-c mx-auto justify-around hidden md:flex mt-10' id="attend">
     {plane}
   </div>
   <div className='sm:flex mx-auto w-[100%] sm:w-c  justify-between sm:gap-4 '>
