@@ -10,7 +10,7 @@ const Mystyle = {
 const DateTime = () => {
   return (
     <>
-      <div className="w-[95%] mx-auto flex flex-col sm:grid sm:grid-cols-2 grid-row-flow-1fr  sm:gap-3">
+      <div className="w-[95%] mx-auto flex flex-col sm:grid sm:grid-cols-2 grid-row-flow-1fr  sm:gap-3" id="overview">
         <div className="flex justify-center order-3 sm:-order-none rounded-md border-[5px]  col-span-1 p-3 border-white mt-5">
           <div className="w-c">
             <h2 className="text-sh-xl font-extrabold italic text-white">
