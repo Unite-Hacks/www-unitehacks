@@ -6,6 +6,7 @@ import Faq from "../components/Faq";
 import Sponsor from "../components/Sponsor";
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
+//import Team from "../components/Team";
 export default function Home() {
   return (
     <>

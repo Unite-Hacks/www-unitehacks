@@ -81,7 +81,6 @@ body {
 }
 
 .text-design {
-  font-style: italic;
   font-size: 26.6px;
   font-family: "Red Hat Text", sans-serif;
 }
@@ -295,3 +294,71 @@ body {
 }
 
 
+.teamcontainer {
+  margin-top: 3rem;
+}
+
+.teamList {
+justify-content: center;
+  border-radius: 20px;
+  list-style: none;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 0;
+  gap: 1rem;
+}
+
+.teamList:first-child {
+  margin-left: 0;
+}
+
+@media screen and (max-width: 1025px) {
+  .teamList {
+    justify-content: center;
+  }
+}
+
+.teamMember {
+  padding: 1rem;
+  border-radius: 5px;
+  display: grid;
+  grid-template-areas:
+    'name'
+    'pfp'
+    'desc';
+ 
+  transition: 200ms ease;
+  width: 12rem;
+}
+
+
+
+
+.teamPFP {
+  width: 75px;
+  height: 75px;
+  border-radius: 20px;
+  transition: 200ms ease;
+}
+
+.teamName {
+  margin-bottom: 0;
+}
+
+.teamDesc {
+  margin: 0;
+  color: #406932;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width: 1025px) {
+  .teamList {
+    width: 100%;
+  }
+.teamMember{
+width: 9rem;
+}
+}

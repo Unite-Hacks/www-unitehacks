@@ -14,7 +14,7 @@ const DateTime = () => {
         <div className="flex justify-center order-3 sm:-order-none rounded-md border-[5px]  col-span-1 p-3 border-white mt-5">
           <div className="w-c">
             <h2 className="text-sh-xl font-extrabold italic text-white">
-              the venue
+              The Venue
             </h2>
             <p className="text-h-p text-white">
               Somewhere in San Francisco, California, or around the Bay Area! Will
@@ -30,7 +30,7 @@ const DateTime = () => {
         <div className=" flex justify-center order-2 sm:-order-none p-3  rounded-md bg-white mt-5">
           <div className="w-c border-2 border-white">
             <h2 className="text-sh-xl font-extrabold italic g-heading">
-              date & time
+              Date & Time
             </h2>
             <p className="text-h-p">
               Doors will open at 6:00 PM on October 21st and close at 12:00 PM on
@@ -41,23 +41,23 @@ const DateTime = () => {
         <div className=" text-white flex text-3xl order-1 sm:-order-none justify-between mt-5">
           <div className="flex flex-col w-[49%]  border-[5px]  border-white p-4 justify-center items-center rounded-md">
             <span className="font-bold italic ">OCTOBER</span>
-            <span className=" font-extraboldx text-7xl text-outline-bold text-transparent">
-              21
+            <span className=" font-extrabold text-7xl text-outline-bold text-transparent">
+              22
             </span>
-            <span className="font-bold italic ">@6:00 PM</span>
+            <span className="font-bold text-3xl text-h ">@9:00 AM</span>
           </div>
           <div className="flex flex-col w-[49%] border-[5px] border-white justify-center p-3 items-center rounded-md">
             <span className="font-bold italic ">OCTOBER</span>
             <span className="font-extrabold text-outline-bold text-7xl text-transparent">
-              23
+              22
             </span>
-            <span className="font-bold italic text-3xl text-h">@12:00 PM</span>
+            <span className="font-bold  text-3xl text-h">@9:00 PM</span>
           </div>
         </div>
           <div className="flex justify-center p-3 order-5 sm:-order-none rounded-md border-[5px]  col-span-1 border-white mt-5">
             <div className="w-c ">
               <h2 className="text-sh-xl font-extrabold italic text-white">
-                eligibility
+                Eligibility
               </h2>
               <p className="text-h-p text-white">
                 All high school & upper middle school students are welcome to join
@@ -68,7 +68,7 @@ const DateTime = () => {
           <div className=" flex justify-center order-4 sm:-order-none p-3 rounded-md bg-white mt-5">
             <div className="w-c border-2 border-white">
               <h2 className="text-sh-xl font-extrabold italic g-heading">
-                covid-19
+                COVID-19
               </h2>
               <p className="text-h-p">
                 COVID-19 vaccination and proof of a negative test 24 hours prior is

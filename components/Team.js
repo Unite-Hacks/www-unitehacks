@@ -1,5 +1,6 @@
 import React from 'react';
-const Mystyle = {
+import Image from 'next/image'
+{/*const Mystyle = {
   backgroundSize:"auto",
   backgroundPosition:"center center",
   objectFit:"contain",
@@ -7,6 +8,38 @@ const Mystyle = {
   backgroundImage: `url("https://addicted2success.com/wp-content/uploads/2017/11/10-Things-We-Can-Learn-From-the-Incredible-Steve-Jobs.jpg")`
 };
 
+*/}
+const team = [
+    {
+      name: '@Ivoine',
+      desc: 'Founder/Lead Developer',
+      
+    },
+    {
+      name: '@Adithya',
+      desc: 'Co-Founder/Finaical manager',
+      image: 'adi.jpg'
+    },
+    {
+      name: '@Emily',
+      desc: 'Founder/Lead Developer',
+    },
+    {
+      name: '@Sahana',
+      desc: 'Founder/Lead Developer',
+    },
+    {
+      name: '@Vidit',
+      desc: 'Marketer',
+    },
+    {
+      name: '@Kaiwen',
+      desc: 'Founder/Lead Developer',
+      image: 'something',
+    },
+    
+
+]
 const Team = () => {
   return (
     <>
@@ -15,39 +48,28 @@ const Team = () => {
           MEET THE TEAM
         </div>
       </div>
-      <div className='mx-auto mt-4 w-[95%] grid grid-cols-2 auto-rows-fr md:grid-cols-3 gap-8'>
-        <div className='border-white border-[5px] '  style={Mystyle}/>
-        <div className='border-white border-[5px] '  style={Mystyle}/>
+      <div className='teamcontainer'> 
+      <ul className="teamList">
+        {team.map((team, i) => (
+          <li className="teamMember bg-white" key={i}>
+           {/*     <Image
+                height={75}
+                width={75}
+                alt={`${team.name}'s profile picture`}
+                src={`/team-members/${team.image}`}
+                className="teamPFP"
+              />
+              */}
 
-        <div className='card-container |  p-8 custom-shadow rounded-md  bg-white'>
-          <section className='card__title |  text-design '>
-            @sikethedev
-          </section>
-          <section className='card__description | font-bold text-[#72BA58]'>
-            Lorem ipsum dolor sit amet.
-            Quisquam totam nostrum quibusdam maiores.
-            Nihil nulla tempora eum numquam.
-            Assumenda laborum eligendi culpa placeat?
-            Nulla totam praesentium ratione reiciendis?
-          </section>
-        </div>
-        <div className='border-white border-[5px] '  style={Mystyle}/>
-
-        <div className='card-container |  p-8 custom-shadow rounded-md  bg-white'>
-          <section className='card__title |  text-design '>
-            @em
-          </section>
-          <section className='card__description | font-bold text-[#72BA58]'>
-            Lorem ipsum dolor sit amet.
-            Quisquam totam nostrum quibusdam maiores.
-            Nihil nulla tempora eum numquam.
-            Assumenda laborum eligendi culpa placeat?
-            Nulla totam praesentium ratione reiciendis?
-          </section>
-        </div>
-        <div className='border-white border-[5px] '  style={Mystyle}/>
-
+              <div className="info">
+                <h3 className="teamName">{team.name}</h3>
+                <h4 className="teamDesc">{team.desc}</h4>
               </div>
+          
+          </li>
+        ))}
+      </ul>
+      </div>
     </>
   );
 }
