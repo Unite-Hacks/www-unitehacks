@@ -6,9 +6,13 @@ import Faq from "../components/Faq";
 import Sponsor from "../components/Sponsor";
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
+import Head from "next/head";
 export default function Home() {
   return (
     <>
+    <Head>
+      <title>welcome home!</title>
+    </Head>
     <Navbar />
     <Header/>
       <DateTime />
