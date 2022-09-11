@@ -63,7 +63,7 @@ const Sponsor = () => {
               </h2>
               <div className='mt-5'>
               <div className='button text-center bg-white text-[#72BA58F7] rounded-md p-1 py-1'>
-                <a href='/unite_hacks.pdf'
+                <a href='/unitehacks.pdf'
                   alt="alt text"
                   target="_blank"
                   rel="noopener noreferrer">
