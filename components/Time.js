@@ -33,8 +33,7 @@ const DateTime = () => {
               Date & Time
             </h2>
             <p className="text-h-p">
-              Doors will open at 6:00 PM on October 21st and close at 12:00 PM on
-              October 23rd.
+              Doors will open at 9:00 AM on October 22nd and close at 9:00 PM.
             </p>
           </div>
         </div>
