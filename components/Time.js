@@ -17,7 +17,7 @@ const DateTime = () => {
               The Venue
             </h2>
             <p className="text-h-p text-white">
-              Somewhere in San Francisco, California, or around the Bay Area! Will
+              Somewhere in Oakland, California, or around the Bay Area! Will
               be finalized soon.
             </p>
           </div>

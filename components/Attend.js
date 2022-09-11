@@ -19,7 +19,7 @@ const Attend = () => {
       </br> something cool</div>
       </div>
       <p className='p-design mx-2 text-[#406932]'>
-      create a unique project with other high school students in 48 hours, by the end of the weekend!
+      create a unique project with other high school students in 12 hours, by the end of the day!
       </p>
     </div>
     <div className='w-c mx-auto p-4 justify-center   sm:pb-24 sm:pt-11 rounded-md bg-white mt-5'>
@@ -42,7 +42,7 @@ const Attend = () => {
       <div className='text-design pb-4'>learn new skills</div>
       </div>
       <p className='p-design mx-2 text-[#406932]'>
-      meet new people from all over the Bay Area, find shared interests, and make connections!
+      learn new skills such as new programming languages.
       </p>
     </div>
   </div>

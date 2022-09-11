@@ -20,7 +20,7 @@ export default function Hero() {
               <div className="flex space-x-4 py-1 justify-center h-[90%] bg-white g-border rounded-md border-black ">
                 <img src={locationicon.src} />
                 <span className="font-bold italic text-sh">
-                  SAN FRANCISCO, CA
+                  OAKLAND, CA
                 </span>
                 </div>
                 </div>
