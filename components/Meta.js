@@ -20,7 +20,7 @@ const Meta = () => {
           type: "website",
           images: [
             {
-              url: `${url}/og.png`,
+              url: `${url}/og1.png`,
               width: 1200,
               height: 630,
               alt: "Unite Hacks. An in-person hackathon in Oakland, CA. October 22nd, 2022",
