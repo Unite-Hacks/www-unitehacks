@@ -62,15 +62,17 @@ const Sponsor = () => {
               </br>supporting?
               </h2>
               <div className='mt-5'>
-              <div className='button text-center bg-white text-[#72BA58F7] rounded-md p-1 py-1'>
-                <a href='/unitehacks.pdf'
+              <a href='/unitehacks.pdf'
                   alt="alt text"
                   target="_blank"
                   rel="noopener noreferrer">
+              <div className='button text-center bg-white text-[#72BA58F7] rounded-md p-1 py-1'>
+              
               <button>Sponsor Prospectus</button>
-              </a>
+           
               </div>
-              <div className='button text-center mt-5 bg-white text-[#72BA58F7] rounded-md p-1 py-1 mb-5' onClick={() => setIsActive(!isActive)}>
+              </a>
+              <div className='button text-center mt-5 bg-white text-[#72BA58F7] rounded-md p-1 py-1 mb-5 cursor-pointer' onClick={() => setIsActive(!isActive)}>
               <button >Make A Donation</button>
               <iframe ref={donateRef} className='donation' src='https://bank.hackclub.com/donations/start/unite-hacks' style={{ display: isActive ? 'block' : 'none'}}></iframe>
               </div>

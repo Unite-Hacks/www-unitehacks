@@ -6,6 +6,7 @@ import Faq from "../components/Faq";
 import Sponsor from "../components/Sponsor";
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
+{/*import Team from "../components/Team"; */}
 import Head from "next/head";
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
     <Attend/>
 <Faq/>
 <Sponsor/>
+{/* <Team /> */}
 <Footer />
     </>
   );

@@ -323,14 +323,13 @@ justify-content: center;
 .teamMember {
   padding: 1rem;
   border-radius: 5px;
-  display: grid;
   grid-template-areas:
     'name'
     'pfp'
     'desc';
  
   transition: 200ms ease;
-  width: 12rem;
+  width: 15rem;
 }
 
 
@@ -359,6 +358,6 @@ justify-content: center;
     width: 100%;
   }
 .teamMember{
-width: 9rem;
+width: 11rem;
 }
 }

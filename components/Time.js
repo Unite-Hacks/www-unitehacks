@@ -1,11 +1,11 @@
 //import bg from '../public/assets/bg.svg'
 
 const Mystyle = {
-  backgroundSize:"150% 150%",
+  backgroundSize:"100% auto",
   backgroundPosition:"center center",
   objectFit:"contain",
   backgroundRepeat: "no-repeat",
-  backgroundImage: `url("https://cdn.discordapp.com/attachments/965459788601364490/1016412307447877672/image_2_2.png")`
+  backgroundImage: `url("https://circuitlaunch.com/images/office/office9.jpg")`
 };
 const DateTime = () => {
   return (
@@ -14,16 +14,17 @@ const DateTime = () => {
         <div className="flex justify-center order-3 sm:-order-none rounded-md border-[5px]  col-span-1 p-3 border-white mt-5">
           <div className="w-c">
             <h2 className="text-sh-xl font-extrabold italic text-white">
-              The Venue
+             Circuit Launch
             </h2>
-            <p className="text-h-p text-white">
-              Somewhere in Oakland, California, or around the Bay Area! Will
-              be finalized soon.
+            <p className="text-h-p text-white underline">
+              <a href="https://goo.gl/maps/z8b8G77cykZqqsH96">
+            8000 Edgewater Drive, Oakland, CA
+            </a>
             </p>
           </div>
         </div>
 
-        <div className=" sm:flex relative hidden border-white border-[5px] justify-center  mt-5" style={Mystyle}>
+        <div className=" sm:flex relative hidden border-white border-[5px] justify-center  mt-5 rounded-md" style={Mystyle}>
 
 
         </div>

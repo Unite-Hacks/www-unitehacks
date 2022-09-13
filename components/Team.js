@@ -12,30 +12,33 @@ import Image from 'next/image'
 const team = [
     {
       name: '@Ivoine',
-      desc: 'Founder/Lead Developer',
+      desc: 'Lead Organizer\n/Developer',
+      image: 'ivoine.jpg'
       
     },
     {
       name: '@Adithya',
-      desc: 'Co-Founder/Finaical manager',
+      desc: 'Lead Organizer\n/Financial Manager',
       image: 'adi.jpg'
     },
     {
       name: '@Emily',
-      desc: 'Founder/Lead Developer',
+      desc: 'Lead Organizer\n/Outreach',
+      image: 'emily.png'
     },
     {
       name: '@Sahana',
-      desc: 'Founder/Lead Developer',
+      desc: 'Lead Organizer\n/Designer',
     },
     {
       name: '@Vidit',
-      desc: 'Marketer',
+      desc: 'Lead Organizer\n/Marketer',
+      image: 'vidit.png'
     },
     {
       name: '@Kaiwen',
-      desc: 'Founder/Lead Developer',
-      image: 'something',
+      desc: 'Lead Organizer\n/Artist',
+      image: 'kaiwen.jpg',
     },
     
 
@@ -60,6 +63,15 @@ const Team = () => {
                 className="teamPFP"
               />
               */}
+                <Image
+        src={`/team-members/${team.image}`}
+        alt={`${team.name}'s profile picture`}
+        width={80}
+        height={80}
+        className="rounded-full"
+        objectFit="cover"
+        objectPosition={'center'}
+      />
 
               <div className="info">
                 <h3 className="teamName">{team.name}</h3>
