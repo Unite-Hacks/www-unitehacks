@@ -14,7 +14,7 @@ const DateTime = () => {
         <div className="flex justify-center order-3 sm:-order-none rounded-md border-[5px]  col-span-1 p-3 border-white mt-5">
           <div className="w-c">
             <h2 className="text-sh-xl font-extrabold italic text-white">
-             Circuit Launch
+            <a href="https://circuitlaunch.com/"> Circuit Launch</a>
             </h2>
             <p className="text-h-p text-white underline">
               <a href="https://goo.gl/maps/z8b8G77cykZqqsH96">
