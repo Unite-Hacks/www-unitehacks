@@ -8,7 +8,7 @@ const Sidebar = ({ visible }) => {
 
   return (
     <div
-      className="Container absolute"
+      className="Container"
       style={{
         display: `${displayValue == 100 ? "none" : "flex"}`,
         transform: `translateX(${displayValue}vw)`,

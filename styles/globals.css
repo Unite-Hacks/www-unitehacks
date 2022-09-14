@@ -221,6 +221,7 @@ body {
 
   .crossIcon {
     display: flex;
+    z-index: 900;
   }
 }
 
@@ -254,7 +255,7 @@ body {
     width: 100vw;
     display: flex;
     flex-direction: column;
-    position: absolute;
+    position: fixed;
     top: 0;
     bottom: 0;
     left: 0;
