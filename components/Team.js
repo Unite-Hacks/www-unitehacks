@@ -12,33 +12,33 @@ import Image from 'next/image'
 const team = [
     {
       name: '@Ivoine',
-      desc: 'Lead Organizer\n/Developer',
+      desc: 'Developer',
       image: 'ivoine.jpg'
       
     },
     {
       name: '@Adithya',
-      desc: 'Lead Organizer\n/Financial Manager',
+      desc: 'Financial Lead',
       image: 'adi.jpg'
     },
     {
       name: '@Emily',
-      desc: 'Lead Organizer\n/Outreach',
+      desc: 'Outreach /\n Marketing ',
       image: 'emily.png'
     },
     {
       name: '@Sahana',
-      desc: 'Lead Organizer\n/Designer',
+      desc: 'Designer',
       image: 'sahana.jpg'
     },
     {
       name: '@Vidit',
-      desc: 'Lead Organizer\n/Marketer',
+      desc: 'Outeach /\nMarketing Lead',
       image: 'vidit.png'
     },
     {
       name: '@Kaiwen',
-      desc: 'Lead Organizer\n/Artist',
+      desc: 'Artist',
       image: 'kaiwen.jpg',
     },
     
