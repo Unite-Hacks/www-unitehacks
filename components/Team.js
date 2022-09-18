@@ -29,6 +29,7 @@ const team = [
     {
       name: '@Sahana',
       desc: 'Lead Organizer\n/Designer',
+      image: 'sahana.png'
     },
     {
       name: '@Vidit',
