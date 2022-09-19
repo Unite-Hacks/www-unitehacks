@@ -2,6 +2,7 @@ import React,{useState, useRef, useEffect} from 'react';
 import Wolfram from "../public/assets/wolfram.svg"
 import Xyz from "../public/assets/xyz.svg"
 import Vercel from "../public/assets/verel.svg"
+import Sticker from "../public/assets/stickergiant.svg"
 
 const Sponsor = () => {
 
@@ -45,10 +46,15 @@ const Sponsor = () => {
             </a>
             </div>
         </div>
-        <div className='w-c mx-auto'>
+        <div className='w-c mx-auto flex gap-10 items-center'>
         <div>
         <a rel="noreferrer" href="https://vercel.com/" target="_blank">
           <img src={Vercel.src} />
+          </a>
+          </div>
+          <div>
+        <a rel="noreferrer" href="https://www.stickergiant.com/event-coupons?utm_source=website&utm_medium=event" target="_blank">
+          <img src={Sticker.src} />
           </a>
           </div>
         </div>
