@@ -3,6 +3,7 @@ import Wolfram from "../public/assets/wolfram.svg"
 import Xyz from "../public/assets/xyz.svg"
 import Vercel from "../public/assets/verel.svg"
 import Sticker from "../public/assets/stickergiant.svg"
+import Digital from "../public/assets/digital.svg"
 
 const Sponsor = () => {
 
@@ -56,6 +57,13 @@ const Sponsor = () => {
         <a rel="noreferrer" href="https://www.stickergiant.com/event-coupons?utm_source=website&utm_medium=event" target="_blank">
           <img src={Sticker.src} />
           </a>
+          </div>
+        </div>
+        <div>
+          <div>
+            <a rel="noreferrer" href="https://try.digitalocean.com/developer-cloud" target="_blank">
+              <img src={Digital.src} />
+            </a>
           </div>
         </div>
        </div>
