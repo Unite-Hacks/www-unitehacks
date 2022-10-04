@@ -4,6 +4,7 @@ import Xyz from "../public/assets/xyz.svg"
 import Vercel from "../public/assets/verel.svg"
 import Sticker from "../public/assets/stickergiant.svg"
 import Digital from "../public/assets/digital.svg"
+import Beezwax from "../public/assets/beezwax.svg"
 
 const Sponsor = () => {
 
@@ -59,10 +60,15 @@ const Sponsor = () => {
           </a>
           </div>
         </div>
-        <div>
+        <div className='w-c mx-auto flex gap-10 items-center'>
           <div>
             <a rel="noreferrer" href="https://try.digitalocean.com/developer-cloud" target="_blank">
               <img src={Digital.src} />
+            </a>
+          </div>
+          <div>
+          <a rel="noreferrer" href="https://www.beezwax.net/" target="_blank">
+              <img src={Beezwax.src} />
             </a>
           </div>
         </div>
