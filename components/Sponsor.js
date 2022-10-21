@@ -5,6 +5,7 @@ import Vercel from "../public/assets/verel.svg"
 import Sticker from "../public/assets/stickergiant.svg"
 import Digital from "../public/assets/digital.svg"
 import Beezwax from "../public/assets/beezwax.svg"
+import TechLim from "../public/assets/techlim.svg"
 
 const Sponsor = () => {
 
@@ -71,6 +72,13 @@ const Sponsor = () => {
               <img src={Beezwax.src} />
             </a>
           </div>
+        </div>
+        <div className='w-c mx-auto flex gap-10 items-center'>
+        <div>
+          <a href='https://techliminal.com/'>
+          <img src={TechLim.src} />
+          </a>
+        </div>
         </div>
        </div>
      </div>
