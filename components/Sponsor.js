@@ -6,6 +6,7 @@ import Sticker from "../public/assets/stickergiant.svg"
 import Digital from "../public/assets/digital.svg"
 import Beezwax from "../public/assets/beezwax.svg"
 import TechLim from "../public/assets/techlim.svg"
+import UtilityApi from "../public/assets/utilityapi.svg"
 
 const Sponsor = () => {
 
@@ -77,6 +78,11 @@ const Sponsor = () => {
         <div>
           <a href='https://techliminal.com/'>
           <img src={TechLim.src} />
+          </a>
+        </div>
+        <div>
+          <a href='https://utilityapi.com/'>
+          <img src={UtilityApi.src} />
           </a>
         </div>
         </div>
