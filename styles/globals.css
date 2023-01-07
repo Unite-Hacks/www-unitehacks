@@ -1,3 +1,20 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+body{
+  background-color: black;
+}
+
+.heroimage{
+  background-image: url("https://cdn.discordapp.com/attachments/532339327888392192/1061085630785929226/background_1.png");
+  height: 619px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.stroketext {
+  color: transparent;
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: white;
+}
