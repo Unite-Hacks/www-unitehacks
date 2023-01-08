@@ -4,8 +4,8 @@ import Image from "next/image";
 
 const Dates = () => {
   return (
-    <div className="mt-5">
-      <div className="text-center text-white text-[70px] stroketext font-bold">
+    <div className="mt-5 font-bold font-comfortaa">
+      <div className="text-center text-white text-[70px] stroketext font-thin">
         UPCOMING HACKATHON
       </div>
       <div className="flex items-center justify-between w-[90%]">
@@ -25,7 +25,9 @@ const Dates = () => {
         </div>
       </div>
       <div className="text-center">
-        <button className="bg-[#5BB9EF] rounded-[8px] text-[32px] pl-2 pr-2 font-bold">REGISTER</button>
+        <button className="bg-[#5BB9EF] rounded-[8px] text-[32px] pl-2 pr-2 font-bold">
+          REGISTER
+        </button>
       </div>
     </div>
   );
