@@ -1,3 +1,48 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+  background: linear-gradient(
+    60deg,
+    rgba(114, 186, 88, 0.8) 20.64%,
+    rgba(91, 185, 239, 0.8) 90.74%
+  );
+}
+
+.nav-color {
+  background: linear-gradient(359.21deg, #72ba58 -52.01%, #1e6a96 263.51%);
+}
+
+.regi {
+  background-color: #f3ec78;
+  background: linear-gradient(
+    94.52deg,
+    rgba(114, 186, 88, 0.97) 21.47%,
+    #548d40 87.79%
+  );
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+
+.hamIcon {
+  display: none;
+  width: 2.2rem;
+  cursor: pointer;
+  position: absolute;
+  overflow-x: hidden;
+  z-index: 99;
+  right: 9vw;
+}
+
+@media (max-width: 1024px) {
+  .linkContainer {
+    display: none;
+  }
+
+  .hamIcon {
+    display: flex;
+  }
+}
