@@ -6,6 +6,7 @@ import Timer from "../components/Timer";
 import { useState } from "react";
 import logo from "../assets/logo.svg";
 import stamp from "../assets/stamp.svg";
+import Community from "../components/Community";
 
 const Home: NextPage = () => {
   const [isHovered, setIsHovered] = useState(false);
@@ -61,6 +62,7 @@ const Home: NextPage = () => {
         </div>
       </div>
       <Timer />
+      <Community />
     </>
   );
 };
