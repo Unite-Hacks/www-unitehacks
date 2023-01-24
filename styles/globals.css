@@ -46,3 +46,25 @@ body {
     display: flex;
   }
 }
+
+.unite{
+  background: linear-gradient(94.2deg, #5BB9EF 12.65%, #72BA58 20.53%);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+
+}
+
+.time{
+  background: linear-gradient(90.94deg, #5BB9EF 2.83%, rgba(114, 186, 88, 0.97) 53.35%);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+
+}
+
+.content.hide {
+  display: none;
+}
