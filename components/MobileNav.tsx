@@ -11,13 +11,13 @@ const MobileNav: React.FC<{ visible: boolean }> = ({ visible }) => {
     >
       <div className="px-5 text-white text-[20px] font-semibold mt-5">
         <div>
-          <a>About</a>
+          <a href="#about">About</a>
         </div>
         <div className="mt-5">
-          <a>FAQ</a>
+          <a href="#faq">FAQ</a>
         </div>
         <div className="mt-5">
-          <a>Register</a>
+          <a href="https://register.unitehacks.com/">Register</a>
         </div>
       </div>
     </div>
