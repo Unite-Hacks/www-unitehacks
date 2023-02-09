@@ -7,6 +7,9 @@ import { useState } from "react";
 import logo from "../assets/logo.svg";
 import stamp from "../assets/stamp.svg";
 import Community from "../components/Community";
+import Schedule from "../components/Schedule";
+import Team from "../components/Team";
+import Footer from "../components/Footer";
 
 const Home: NextPage = () => {
   const [isHovered, setIsHovered] = useState(false);
@@ -29,17 +32,17 @@ const Home: NextPage = () => {
                 <div>
                   <Image src={logo} alt="logo" />
                 </div>
-                <div className="text-center h-[180px] border border-blue-700"></div>
+                <div className="text-center h-[250px] border-2 bordersplit rounded-sm"></div>
                 <div className="text-left mr-[150px]">
-                  <div className="border-b-2 border-black w-40">WHERE:</div>
+                  <div className="border-b-2 border-black w-40 postcard">WHERE:</div>
 
-                  <div className="border-b-2 border-black w-40 mt-5">
+                  <div className="border-b-2 border-black w-40 mt-5 postcard">
                     Bay Area
                   </div>
 
-                  <div className="border-b-2 border-black w-40 mt-5">WHEN:</div>
+                  <div className="border-b-2 border-black w-40 mt-5 postcard">WHEN:</div>
 
-                  <div className="border-b-2 border-black w-40 mt-5">April</div>
+                  <div className="border-b-2 border-black w-40 mt-5 postcard">April</div>
                 </div>
               </div>
               <div></div>
@@ -54,8 +57,8 @@ const Home: NextPage = () => {
                 onMouseLeave={() => setIsHovered(false)}
               />
               <div className="absolute bottom-10 right-0 p-2 text-white w-[40%]">
-                <p className="font-bold sm:text-[42px]">WELCOME TO</p>
-                <p className="font-bold sm:text-[52px] unite">UNITE HACKS</p>
+                <p className="font-bold sm:text-[42px] paytone">WELCOME TO</p>
+                <p className="font-bold sm:text-[52px] unite paytone">UNITE HACKS</p>
               </div>
             </div>
           )}
@@ -63,6 +66,9 @@ const Home: NextPage = () => {
       </div>
       <Timer />
       <Community />
+      <Schedule />
+      <Team />
+      <Footer />
     </>
   );
 };

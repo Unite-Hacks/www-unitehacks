@@ -21,21 +21,30 @@ const Timer = () => {
   }, 1000);
   return (
     <div>
-      <div className="flex  text-center justify-center bg-white sm:h-[22vh] sm:mt-5 h-20 pt-5 mt-2">
+      <div className="flex  text-center justify-center bg-white sm:h-[22vh] sm:mt-5 h-20 pt-5 mt-2  sm:gap-2 gap-2">
         <div>
-          <p className="sm:text-[52px] font-bold time">{day}:</p>
+          <div className="flex items-center gap-2">
+            <p className="sm:text-[52px] font-bold time paytone">{day}</p>
+            <span className="sm:text-[52px] font-bold time paytone">:</span>
+          </div>
           <p className="font-bold">Days</p>
         </div>
         <div>
-          <p className="sm:text-[52px] font-bold time">{hour}:</p>
+          <div className="flex items-center gap-2">
+            <p className="sm:text-[52px] font-bold time paytone">{hour}</p>
+            <span className="sm:text-[52px] font-bold time paytone">:</span>
+          </div>
           <p className="font-bold">Hours</p>
         </div>
         <div>
-          <p className="sm:text-[52px] font-bold time">{min}:</p>
+          <div className="flex items-center gap-2">
+            <p className="sm:text-[52px] font-bold time paytone">{min}</p>
+            <span className="sm:text-[52px] font-bold time paytone">:</span>
+          </div>
           <p className="font-bold">Mins</p>
         </div>
         <div>
-          <p className="sm:text-[52px] font-bold time">{sec}</p>
+          <p className="sm:text-[52px] font-bold time paytone">{sec}</p>
           <p className="font-bold">Secs</p>
         </div>
       </div>

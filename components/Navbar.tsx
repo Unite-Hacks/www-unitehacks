@@ -29,16 +29,20 @@ const Navbar = () => {
             Unite Hacks
           </div>
           <div className="flex items-center gap-4 linkContainer">
-            <a>
+            <a href="#about">
               <div className="text-white italic">About</div>
             </a>
-            <a>
+            <a href="#faq">
               <div className="text-white italic">FAQ</div>
             </a>
             <a>
+            <a href="https://register.unitehacks.com/">
               <div className="bg-white rounded-[3px]">
+                
                 <button className="regi italic pl-5 pr-5 py-1">Register</button>
+               
               </div>
+              </a>
             </a>
           </div>
         </div>
