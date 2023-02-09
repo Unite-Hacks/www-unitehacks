@@ -4,8 +4,8 @@ import sparkle from "../assets/sparkle.svg";
 
 const Community = () => {
   return (
-    <div className="mt-20 sm:flex justify-between items-center w-[95%]">
-      <div className="sm:px-10 font-bold text-white sm:text-[52px] text-center text-[24px]">
+    <div className="pt-20 sm:flex justify-between items-center pb-20" id="about">
+      <div className="sm:px-10 font-bold text-white sm:text-[52px] text-center text-[24px] paytone">
         Join Our <br></br>
         Community
       </div>
