@@ -1,0 +1,169 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa&family=Paytone+One&display=swap");
+
+body {
+  background: linear-gradient(
+    60deg,
+    rgba(114, 186, 88, 0.8) 20.64%,
+    rgba(91, 185, 239, 0.8) 90.74%
+  );
+}
+
+.nav-color {
+  background: linear-gradient(359.21deg, #72ba58 -52.01%, #1e6a96 263.51%);
+}
+
+.regi {
+  background-color: #f3ec78;
+  background: linear-gradient(
+    94.52deg,
+    rgba(114, 186, 88, 0.97) 21.47%,
+    #548d40 87.79%
+  );
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+
+.hamIcon {
+  display: none;
+  width: 2.2rem;
+  cursor: pointer;
+  position: absolute;
+  overflow-x: hidden;
+  z-index: 99;
+  right: 9vw;
+}
+
+@media (max-width: 1024px) {
+  .linkContainer {
+    display: none;
+  }
+
+  .hamIcon {
+    display: flex;
+  }
+}
+
+.unite {
+  background: linear-gradient(94.2deg, #5bb9ef 12.65%, #72ba58 20.53%);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+
+.time {
+  background: linear-gradient(
+    90.94deg,
+    #5bb9ef 2.83%,
+    rgba(114, 186, 88, 0.97) 53.35%
+  );
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+
+.content.hide {
+  display: none;
+}
+
+
+.paytone {
+  font-family: "Comfortaa", cursive;
+  font-family: "Paytone One", sans-serif;
+}
+
+.teamList {
+  justify-content: center;
+  border-radius: 20px;
+  list-style: none;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 0;
+  gap: 1rem;
+}
+
+.teamList:first-child {
+  margin-left: 0;
+}
+
+@media screen and (max-width: 1025px) {
+  .teamList {
+    justify-content: center;
+  }
+}
+
+.teamMember {
+  margin-top: 1rem;
+  border-radius: 100px;
+  grid-template-areas:
+    "name"
+    "pfp"
+    "desc";
+
+  transition: 200ms ease;
+  width: 15rem;
+}
+
+.teamPFP {
+  width: 75px;
+  height: 75px;
+  border-radius: 20px;
+  transition: 200ms ease;
+}
+
+.teamName {
+  margin-bottom: 0;
+}
+
+.teamDesc {
+  margin: 0;
+  color: #406932;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width: 1025px) {
+  .teamList {
+    width: 100%;
+  }
+  .teamMember {
+    width: 11rem;
+  }
+}
+.team {
+  font-size: 39px;
+}
+
+.footer{
+  background: linear-gradient(112.67deg, #72BA58 4.18%, #1E6A96 106.18%);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+
+
+
+.postcard{
+  font-family: 'Gloria Hallelujah', cursive;
+}
+
+.bordersplit{
+  box-sizing: content-box;
+  border-width: 3px;
+  border-style: solid;
+  border-radius: 5px;
+  border-image: linear-gradient(112.67deg, #72BA58 4.18%, #1E6A96 106.18%);
+
+  border-image-slice: 1;
+}
