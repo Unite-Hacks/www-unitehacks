@@ -10,6 +10,7 @@ import Community from "../components/Community";
 import Schedule from "../components/Schedule";
 import Team from "../components/Team";
 import Footer from "../components/Footer";
+import Sponsors from "../components/Sponsors";
 
 const Home: NextPage = () => {
   const [isHovered, setIsHovered] = useState(false);
@@ -69,6 +70,7 @@ const Home: NextPage = () => {
       <Timer />
       <Community />
       <Schedule />
+      <Sponsors />
       <Team />
       <Footer />
     </>
