@@ -21,31 +21,32 @@ const Timer = () => {
   }, 1000);
   return (
     <div>
-      <div className="flex  text-center justify-center bg-white sm:h-[22vh] sm:mt-5 h-20 pt-5 mt-2  sm:gap-2 gap-2">
+      {/* <div className="flex  text-center justify-center bg-white sm:h-[22vh] sm:mt-5 h-20 pt-5 mt-2  sm:gap-2 gap-2"> */}
+      <div className="flex py-3 justify-center bg-white">
         <div>
           <div className="flex items-center gap-2">
-            <p className="sm:text-[52px] font-bold time paytone">{day}</p>
-            <span className="sm:text-[52px] font-bold time paytone">:</span>
+            <p className="sm:text-[52px] text-5xl font-bold time paytone">{day}</p>
+            <span className="sm:text-[52px] text-4xl font-bold time paytone">:</span>
           </div>
-          <p className="font-bold">Days</p>
+          <p className="font-bold text-xl">Days</p>
         </div>
         <div>
           <div className="flex items-center gap-2">
-            <p className="sm:text-[52px] font-bold time paytone">{hour}</p>
-            <span className="sm:text-[52px] font-bold time paytone">:</span>
+            <p className="sm:text-[52px] text-5xl font-bold time paytone">{hour}</p>
+            <span className="sm:text-[52px] text-4xl font-bold time paytone">:</span>
           </div>
-          <p className="font-bold">Hours</p>
+          <p className="font-bold text-xl">Hours</p>
         </div>
         <div>
           <div className="flex items-center gap-2">
-            <p className="sm:text-[52px] font-bold time paytone">{min}</p>
-            <span className="sm:text-[52px] font-bold time paytone">:</span>
+            <p className="sm:text-[52px] text-5xl font-bold time paytone">{min}</p>
+            <span className="sm:text-[52px] text-4xl font-bold time paytone">:</span>
           </div>
-          <p className="font-bold">Mins</p>
+          <p className="font-bold text-xl">Mins</p>
         </div>
         <div>
-          <p className="sm:text-[52px] font-bold time paytone">{sec}</p>
-          <p className="font-bold">Secs</p>
+          <p className="sm:text-[52px] text-5xl font-bold time paytone">{sec}</p>
+          <p className="font-bold text-xl">Secs</p>
         </div>
       </div>
     </div>
