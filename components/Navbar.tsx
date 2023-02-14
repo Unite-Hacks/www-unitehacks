@@ -1,10 +1,22 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import MobileNav from "./MobileNav";
 import Image from "next/image";
 import burger from "../assets/burger.svg";
 
 const Navbar = () => {
+  const [mounted, setMounted] = useState(false);
   const [visible, setVisible] = useState(true);
+
+  useEffect(() => {
+    setMounted(true)
+  }, [])
+
+
+  if (!mounted) {
+    return
+  }
+
+
   return (
     <>
       <div className="flex justify-between items-center nav-color h-[80px]">
@@ -36,12 +48,12 @@ const Navbar = () => {
               <div className="text-white italic">FAQ</div>
             </a>
             <a>
-            <a href="https://register.unitehacks.com/">
-              <div className="bg-white rounded-[3px]">
-                
-                <button className="regi italic pl-5 pr-5 py-1">Register</button>
-               
-              </div>
+              <a href="https://register.unitehacks.com/">
+                <div className="bg-white rounded-[3px]">
+
+                  <button className="regi italic pl-5 pr-5 py-1">Register</button>
+
+                </div>
               </a>
             </a>
           </div>

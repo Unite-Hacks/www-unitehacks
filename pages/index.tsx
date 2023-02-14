@@ -23,7 +23,9 @@ const Home: NextPage = () => {
       <div>
         <div>
           {isHovered ? (
-            <div className="sm:bg-white sm:w-[1262px] ml-auto mr-auto mt-20 cursor-pointer h-[772.88px] rounded-[20px]">
+            <div className="sm:bg-white sm:w-[1262px] ml-auto mr-auto mt-20 cursor-pointer h-[772.88px] rounded-[20px]"
+              onMouseLeave={() => setIsHovered(false)}
+            >
               <div className="text-center text-[32px] pt-5">POSTCARD</div>
               <div className="flex justify-end w-[95%]">
                 <Image src={stamp} alt="stamp" />
