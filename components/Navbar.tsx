@@ -13,7 +13,7 @@ const Navbar = () => {
 
 
   if (!mounted) {
-    return
+    return <div>loading</div>
   }
 
 
