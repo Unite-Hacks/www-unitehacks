@@ -22,16 +22,43 @@ const team = [
     desc: "she/her",
     image: "sahana.jpg",
   },
+  {
+    name: "Vidit",
+    desc: "he/him",
+    image: "ivoine.png",
+  },
+  {
+    name: "Adithya",
+    desc: "he/him",
+    image: "ivoine.png",
+  },
+  {
+    name: "Fatimah",
+    desc: "she/her",
+    image: "ivoine.png",
+  },
+  {
+    name: "Arnav",
+    desc: "he/him",
+    image: "ivoine.png",
+  },
+  {
+    name: "Manish",
+    desc: "he/him",
+    image: "ivoine.png",
+  },
 ];
 
 const Team = () => {
   return (
-    <div>
-      <div className="paytone sm:text-[54px] text-[24px] font-bold text-white  mt-5 text-center">OUR TEAM</div>
-      <div className="teamcontainer">
-        <ul className="teamList">
+    <div className="bg-[#B5FF9B] py-4">
+        <div className="text-[#2A4720] text-center font-extrabold text-4xl">
+          OUR TEAM
+        </div>
+      <div className="w-full">
+        <div className="w-[95%] max-w-[756px] mx-auto space-y-4 flex items-end justify-between flex-wrap">
           {team.map((team, i) => (
-            <li className="teamMember" key={i}>
+            <div className="flex items-center space-x-4" key={i}>
               <Image
                 src={`/team-members/${team.image}`}
                 alt={`${team.name}'s profile picture`}
@@ -41,12 +68,12 @@ const Team = () => {
               />
 
               <div className="info">
-                <h3 className="teamName">{team.name}</h3>
-                <h4 className="teamDesc">{team.desc}</h4>
+                <h3 className="font-bold">{team.name}</h3>
+                <h4 className="text-[#406932]">{team.desc}</h4>
               </div>
-            </li>
+            </div>
           ))}
-        </ul>
+        </div>
       </div>
     </div>
   );
