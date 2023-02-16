@@ -23,30 +23,10 @@ const team = [
     image: "sahana.jpg",
   },
   {
-    name: "Vidit",
-    desc: "he/him",
-    image: "ivoine.png",
-  },
-  {
-    name: "Adithya",
-    desc: "he/him",
-    image: "ivoine.png",
-  },
-  {
-    name: "Fatimah",
-    desc: "she/her",
-    image: "ivoine.png",
-  },
-  {
-    name: "Arnav",
-    desc: "he/him",
-    image: "ivoine.png",
-  },
-  {
     name: "Manish",
     desc: "he/him",
     image: "ivoine.png",
-  },
+  }
 ];
 
 const Team = () => {
@@ -56,7 +36,7 @@ const Team = () => {
           OUR TEAM
         </div>
       <div className="w-full">
-        <div className="w-[95%] max-w-[756px] mx-auto space-y-4 flex items-end justify-between flex-wrap">
+        <div className="w-[95%] max-w-[756px] mx-auto space-y-6 space-x-8 flex items-end justify-center flex-wrap">
           {team.map((team, i) => (
             <div className="flex items-center space-x-4" key={i}>
               <Image
