@@ -36,7 +36,7 @@ const Team = () => {
           OUR TEAM
         </div>
       <div className="w-full">
-        <div className="w-[95%] max-w-[756px] mx-auto space-y-6 space-x-8 flex items-end justify-center flex-wrap">
+        <div className="w-[100%] max-w-[756px] mx-auto space-y-6 md:space-x-4 flex items-end justify-around flex-wrap">
           {team.map((team, i) => (
             <div className="flex items-center space-x-4" key={i}>
               <Image
