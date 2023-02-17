@@ -2,15 +2,33 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap');
-@import url("https://fonts.googleapis.com/css2?family=Comfortaa&family=Paytone+One&display=swap");
+/* @import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap'); */
+
+@font-face {
+  font-family: 'Cursive' ;
+  src: url("../public/fonts/CedarvilleCursive-Regular.woff")
+}
+
+@font-face {
+  font-family: 'Thick';
+  src: url("../public/fonts/PaytoneOne-Regular.woff");
+}
+
+.gloria {
+  font-family: 'Cursive';
+}
 
 body {
+  font-family: 'Red Hat Text', sans-serif;
   background: linear-gradient(
     60deg,
     rgba(114, 186, 88, 0.8) 20.64%,
     rgba(91, 185, 239, 0.8) 90.74%
   );
+}
+
+.gloria-font {
+  font-family: 'Gloria Hallelujah', cursive;
 }
 
 .nav-color {
@@ -76,8 +94,9 @@ body {
 
 
 .paytone {
-  font-family: "Comfortaa", cursive;
-  font-family: "Paytone One", sans-serif;
+  font-family: 'Thick';
+  /* font-family: "Comfortaa", cursive; */
+  /* font-family: "Paytone One", sans-serif; */
 }
 
 .teamList {

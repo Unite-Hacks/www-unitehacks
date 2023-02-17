@@ -30,8 +30,12 @@ const PrevHack = () => {
           <div className="w-full h-full bg-black">
           </div>
         </div>
-        <div className="border px-4 pb-4 relative flex justify-between z-50 w-full mx-auto bg-white">
-          <button onClick={() => increaseTranslateValue()}>L</button>
+        <div className="px-2 pb-4 space-x-2 relative flex justify-between z-50 w-full mx-auto bg-white">
+          <button onClick={() => increaseTranslateValue()}>
+            <span className="font-extrabold text-3xl text-[#d9d9d9]">
+              &#x3c;
+            </span>
+          </button>
           <div className="relative z-50 w-[90%] bg-white mx-auto py-4" >
             <div className="flex overflow-hidden">
               <div className="flex space-x-4"
@@ -44,11 +48,15 @@ const PrevHack = () => {
                 <img className="" alt="hackathon images" src={`/photos/prevHack5.jpg`} />
               </div>
             </div>
-            <div className="text-center pt-4">
+            <div className="text-2xl text-center pt-4 gloria">
               Our first hackathon! :)
             </div>
           </div>
-          <button onClick={() => decreaseTranslateValue()}>R</button>
+          <button className="" onClick={() => decreaseTranslateValue()}>
+            <span className="font-extrabold text-3xl text-[#d9d9d9]">
+              &#x3e;
+            </span>
+          </button>
         </div>
       </div>
     </div>
