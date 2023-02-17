@@ -37,7 +37,7 @@ const Schedule = () => {
               style={{ fontSize: "min(12vw, 69px)" }}
             >Schedule</h1>
             <div className="hidden lg:block">
-              upcomming
+              upcoming
             </div>
           </div>
           <div className="w-[90%] mx-auto">
