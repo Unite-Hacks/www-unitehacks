@@ -23,7 +23,7 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div>
-        <div>
+        <div className="pb-8">
           {isHovered ? (
             <div className="sm:bg-white sm:w-[1262px] ml-auto mr-auto mt-20 cursor-pointer h-[772.88px] rounded-[20px]"
               onMouseLeave={() => setIsHovered(false)}
@@ -32,7 +32,8 @@ const Home: NextPage = () => {
               <div className="flex justify-end w-[95%]">
                 <Image src={stamp} alt="stamp" />
               </div>
-              <div className="mt-[60px] flex items-center justify-between w-[95%]">
+
+              <div className="mt-[60px] mx-auto  flex items-center justify-between w-[95%]">
                 <div>
                   <Image src={logo} alt="logo" />
                 </div>
