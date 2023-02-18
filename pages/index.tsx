@@ -38,19 +38,18 @@ const Home: NextPage = () => {
                   <Image src={logo} alt="logo" />
                 </div>
                 <div className="text-center h-[250px] border-2 bordersplit rounded-sm"></div>
-                <div className="text-left mr-[150px]">
-                  <div className="border-b-2 border-black w-40 postcard">WHERE:</div>
+                <div className="text-left mr-[150px] gloria">
+                  <div className="border-b-2 border-black w-40 ">WHERE:</div>
 
-                  <div className="border-b-2 border-black w-40 mt-5 postcard">
+                  <div className="border-b-2 border-black w-40 mt-5 ">
                     Bay Area
                   </div>
 
-                  <div className="border-b-2 border-black w-40 mt-5 postcard">WHEN:</div>
+                  <div className="border-b-2 border-black w-40 mt-5 ">WHEN:</div>
 
-                  <div className="border-b-2 border-black w-40 mt-5 postcard">April</div>
+                  <div className="border-b-2 border-black w-40 mt-5 ">April</div>
                 </div>
               </div>
-              <div></div>
             </div>
           ) : (
             <div className="relative">
