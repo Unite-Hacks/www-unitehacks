@@ -2,7 +2,7 @@ import React from "react";
 
 const Sponsors = () => {
   return (
-    <div className="bg-[#A7F48B] py-4">
+    <div className="bg-[#A7F48B] py-10">
       <div className="text-[#2A4720] text-center">
         <div className="font-extrabold text-4xl">
           SPONSORS

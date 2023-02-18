@@ -31,7 +31,7 @@ const team = [
 
 const Team = () => {
   return (
-    <div className="bg-[#B5FF9B] py-4">
+    <div className="bg-[#B5FF9B] py-10">
         <div className="text-[#2A4720] text-center font-extrabold text-4xl">
           OUR TEAM
         </div>

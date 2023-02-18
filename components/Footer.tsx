@@ -6,7 +6,7 @@ import linkedin from "../assets/linkedin.svg"
 
 const Footer = () => {
   return (
-    <div className='text-center justify-center mt-5'>
+    <div className='text-center justify-center mt-20'>
       <div>
         <div className='flex gap-4 justify-center text-center items-center'>
           <div>
@@ -25,7 +25,7 @@ const Footer = () => {
             </a>
           </div>
         </div>
-        <div className='footer font-bold text-[24px]'>Unite by Tech</div>
+        <div className='footer font-bold text-[24px]'>United by Tech</div>
         <div>ⓒ unite hacks 2022</div>
       </div>
     </div>

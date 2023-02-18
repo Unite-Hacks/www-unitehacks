@@ -25,7 +25,7 @@ const Home: NextPage = () => {
       <div>
         <div className="pb-8">
           {isHovered ? (
-            <div className="sm:bg-white sm:w-[1262px] ml-auto mr-auto mt-20 cursor-pointer h-[772.88px] rounded-[20px]"
+            <div className="sm:bg-white sm:w-[1024px] ml-auto mr-auto mt-20 cursor-pointer h-[772.88px] rounded-[20px]"
               onMouseLeave={() => setIsHovered(false)}
             >
               <div className="text-center text-[32px] pt-5">POSTCARD</div>
@@ -60,7 +60,7 @@ const Home: NextPage = () => {
                 onMouseEnter={() => setIsHovered(true)}
                 onMouseLeave={() => setIsHovered(false)}
               />
-              <div className="absolute bottom-10 right-0 p-2 text-white w-[40%]">
+              <div className="absolute bottom-[105px] right-0 p-2 text-white w-[45%]">
                 <p className="font-bold sm:text-[42px] paytone">WELCOME TO</p>
                 <p className="font-bold sm:text-[52px] unite paytone">UNITE HACKS</p>
               </div>
