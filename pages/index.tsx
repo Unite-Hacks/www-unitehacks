@@ -23,9 +23,9 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div>
-        <div className="pb-8">
+        <div className="pb-8 w-[95%] mx-auto mt-4 ">
           {isHovered ? (
-            <div className="sm:bg-white sm:w-[1262px] ml-auto mr-auto mt-20 cursor-pointer h-[772.88px] rounded-[20px]"
+            <div className="sm:bg-white sm:w-[1262px] ml-auto mr-auto mt-4 cursor-pointer h-[772.88px] rounded-[20px]"
               onMouseLeave={() => setIsHovered(false)}
             >
               <div className="text-center text-[32px] pt-5">POSTCARD</div>
@@ -56,7 +56,7 @@ const Home: NextPage = () => {
               <Image
                 src={hero}
                 alt="hero"
-                className="ml-auto mr-auto mt-20 cursor-pointer"
+                className="ml-auto mr-auto cursor-pointer"
                 onMouseEnter={() => setIsHovered(true)}
                 onMouseLeave={() => setIsHovered(false)}
               />
