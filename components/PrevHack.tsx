@@ -23,7 +23,7 @@ const PrevHack = () => {
   //max 420%
 
   return (
-    <div className="mt-12 flex justify-center max-w-[732px] mx-auto">
+    <div className="mt-20 flex justify-center max-w-[732px] mx-auto">
       <div className="relative z-40 w-[75%] max-w-[370px] lg:max-w-[550px]">
         <div className="z-0  rotate-[10deg] absolute w-full h-full bg-[#D7D7D7]"></div>
         <div className="bg-[#D9D2D2] absolute rotate-[-8deg] z-20 p-2  w-full h-full">
