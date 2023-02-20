@@ -52,7 +52,7 @@ const Home: NextPage = () => {
               </div>
             </div>
           ) : (
-            <div className="relative border">
+            <div className="relative ">
               <Image
                 src={hero}
                 alt="hero"
