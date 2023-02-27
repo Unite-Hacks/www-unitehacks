@@ -25,27 +25,27 @@ const Timer = () => {
       <div className="flex space-x-1 py-3 justify-center bg-white">
         <div>
           <div className="flex items-center gap-2">
-            <p className="sm:text-[52px] text-5xl font-bold time paytone">{day}</p>
+            <p className="sm:text-[52px] text-5xl font-bold time paytone">{day < 10 ? `0${day}` : day}</p>
             <span className="sm:text-[52px] text-4xl font-bold time paytone">:</span>
           </div>
           <p className="font-bold text-xl">Days</p>
         </div>
         <div>
           <div className="flex items-center gap-2">
-            <p className="sm:text-[52px] text-5xl font-bold time paytone">{hour}</p>
+            <p className="sm:text-[52px] text-5xl font-bold time paytone">{hour < 10 ? `0${hour}` : hour}</p>
             <span className="sm:text-[52px] text-4xl font-bold time paytone">:</span>
           </div>
           <p className="font-bold text-xl">Hours</p>
         </div>
         <div>
           <div className="flex items-center gap-2">
-            <p className="sm:text-[52px] text-5xl font-bold time paytone">{min}</p>
+            <p className="sm:text-[52px] text-5xl font-bold time paytone">{min < 10 ? `0${min}` : min}</p>
             <span className="sm:text-[52px] text-4xl font-bold time paytone">:</span>
           </div>
           <p className="font-bold text-xl">Mins</p>
         </div>
         <div>
-          <p className="sm:text-[52px] text-5xl font-bold time paytone">{sec}</p>
+          <p className="sm:text-[52px] text-5xl font-bold time paytone">{sec < 10 ? `0${sec}` : sec}</p>
           <p className="font-bold text-xl">Secs</p>
         </div>
       </div>
