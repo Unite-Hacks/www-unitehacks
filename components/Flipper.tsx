@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import Image from "next/image";
 
 import hero from "../assets/hero.svg";
@@ -8,12 +8,26 @@ import stamp from "../assets/stamp.svg";
 const Flipper = () => {
   const [isHovered, setIsHovered] = useState(false);
 
+  const handleMouseIn = () => {
+    console.log('What the hell')
+    if (window.innerWidth < 640) {
+      console.log("Small lol")
+      return
+    }
+
+    setIsHovered(true);
+  }
+
+  const handleMouseOut = () => {
+    setIsHovered(false);
+  }
+
   return (
     <div>
       <div className="w-[95%] mx-auto mt-4 ">
         {isHovered ? (
-          <div className="sm:bg-white sm:w-[1262px] ml-auto mr-auto mt-4 cursor-pointer h-[772.88px] rounded-[20px]"
-            onMouseLeave={() => setIsHovered(false)}
+          <div className="sm:bg-white sm:w-[1262px] max-w-[1024px] ml-auto mr-auto mt-4 cursor-pointer max-h-[773.88px] rounded-[20px]"
+          onMouseLeave={() => setIsHovered(false)}
           >
             <div className="text-center text-[32px] pt-5">POSTCARD</div>
             <div className="flex justify-end w-[95%]">
@@ -44,8 +58,8 @@ const Flipper = () => {
               src={hero}
               alt="hero"
               className="ml-auto mr-auto cursor-pointer"
-              onMouseEnter={() => setIsHovered(true)}
-              onMouseLeave={() => setIsHovered(false)}
+              onMouseEnter={() => handleMouseIn()}
+              onMouseLeave={() => handleMouseOut()}
             />
             <div className="absolute bottom-0 right-0 translate-y-[-55%] p-2 text-white w-[55%]">
               <p className="font-bold text-xl sm:text-[45px] paytone">WELCOME TO</p>
