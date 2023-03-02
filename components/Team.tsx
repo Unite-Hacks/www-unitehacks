@@ -25,7 +25,7 @@ const team = [
   {
     name: "Manish",
     desc: "he/him",
-    image: "ivoine.png",
+    image: "manny.jpg",
   }
 ];
 
