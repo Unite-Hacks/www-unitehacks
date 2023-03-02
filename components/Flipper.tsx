@@ -26,8 +26,8 @@ const Flipper = () => {
     <div>
       <div className="w-[95%] mx-auto mt-4 ">
         {isHovered ? (
-          <div className="sm:bg-white sm:w-[1262px] max-w-[1024px] ml-auto mr-auto mt-4 cursor-pointer max-h-[773.88px] rounded-[20px]"
-          onMouseLeave={() => setIsHovered(false)}
+          <div className="sm:bg-white sm:w-[1262px] max-w-[1024px] ml-auto mr-auto mt-4 cursor-pointer max-h-[773.88px] rounded-[20px] mb-[134px]"
+            onMouseLeave={() => setIsHovered(false)}
           >
             <div className="text-center text-[32px] pt-5">POSTCARD</div>
             <div className="flex justify-end w-[95%]">
