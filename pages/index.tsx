@@ -20,9 +20,9 @@ const Home: NextPage = () => {
       <Timer />
       <Community />
       <Schedule />
+      <PrevHack />
       <Sponsors />
       <Team />
-      <PrevHack />
       <Footer />
     </>
   );
