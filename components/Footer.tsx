@@ -6,7 +6,7 @@ import linkedin from "../assets/linkedin.svg"
 
 const Footer = () => {
   return (
-    <div className='text-center justify-center mt-20 mb-8'>
+    <div className='bg-[#C3FFAE] text-center justify-center pt-10 pb-8'>
       <div>
         <div className='flex gap-4 justify-center text-center items-center'>
           <div>

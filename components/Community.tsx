@@ -4,7 +4,7 @@ import sparkle from "../assets/sparkle.svg";
 
 const Community = () => {
   return (
-    <div className="bg-[#72BA58] pt-20 sm:flex justify-between items-center pb-20" id="about">
+    <div className="bg-[#72BA58] pt-5 sm:flex justify-between items-center pb-8" id="about">
       <div className="lg:flex-row lg:justify-around w-full m-auto flex flex-col justify-between items-center">
         <div
           className="sm:px-10 lg:hidden font-bold text-white sm:text-[52px] text-4xl text-center text-[24px] paytone"
