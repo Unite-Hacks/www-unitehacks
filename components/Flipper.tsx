@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from "react";
-import Image from "next/image";
+// import Image from "next/image";
 
 import hero from "../assets/hero.jpeg";
-import logo from "../assets/logo.svg";
-import stamp from "../assets/stamp.svg";
+// import logo from "../assets/logo.svg";
+// import stamp from "../assets/stamp.svg";
 
 const Flipper = () => {
   const [isHovered, setIsHovered] = useState(false);
