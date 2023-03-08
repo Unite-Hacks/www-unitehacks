@@ -1,17 +1,15 @@
 import React, { useEffect, useState } from "react";
 import Image from "next/image";
 
-import hero from "../assets/hero.svg";
+import hero from "../assets/hero.jpeg";
 import logo from "../assets/logo.svg";
 import stamp from "../assets/stamp.svg";
 
 const Flipper = () => {
-  const [isHovered, setIsHovered] = useState(false);
+  const [isHovered, setIsHovered] = useState(true);
 
   const handleMouseIn = () => {
-    console.log('What the hell')
     if (window.innerWidth < 640) {
-      console.log("Small lol")
       return
     }
 
@@ -26,7 +24,7 @@ const Flipper = () => {
     <div>
       <div className="w-[95%] mx-auto mt-4 ">
         {isHovered ? (
-          <div className="sm:bg-white sm:w-[1262px] max-w-[1024px] ml-auto mr-auto mt-4 cursor-pointer max-h-[773.88px] rounded-[20px] mb-[134px]"
+          <div className="max-w-[1072px] h-[60vh] max-h-[574px] bg-white ml-auto mr-auto cursor-pointer  rounded-[20px] mb-4"
             onMouseLeave={() => setIsHovered(false)}
           >
             <div className="text-center text-[32px] pt-5">POSTCARD</div>
@@ -34,7 +32,7 @@ const Flipper = () => {
               <Image src={stamp} alt="stamp" />
             </div>
 
-            <div className="mt-[60px] mx-auto  flex items-center justify-between w-[95%]">
+            <div className="mx-auto  flex items-center justify-between w-[95%]">
               <div>
                 <Image src={logo} alt="logo" />
               </div>
@@ -53,11 +51,11 @@ const Flipper = () => {
             </div>
           </div>
         ) : (
-          <div className="relative ">
-            <Image
-              src={hero}
+          <div className="relative mb-4">
+            <img
+              src={hero.src}
               alt="hero"
-              className="ml-auto mr-auto cursor-pointer"
+              className="ml-auto mr-auto cursor-pointer object-cover h-[30vh] md:h-[60vh] rounded-lg max-w-[1072px] max-h-[574px]"
               onMouseEnter={() => handleMouseIn()}
               onMouseLeave={() => handleMouseOut()}
             />
@@ -67,7 +65,6 @@ const Flipper = () => {
             </div>
           </div>
         )}
-
       </div>
     </div>
   )
