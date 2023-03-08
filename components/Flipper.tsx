@@ -6,7 +6,7 @@ import logo from "../assets/logo.svg";
 import stamp from "../assets/stamp.svg";
 
 const Flipper = () => {
-  const [isHovered, setIsHovered] = useState(true);
+  const [isHovered, setIsHovered] = useState(false);
 
   const handleMouseIn = () => {
     if (window.innerWidth < 640) {
@@ -51,17 +51,21 @@ const Flipper = () => {
             </div>
           </div>
         ) : (
-          <div className="relative mb-4">
-            <img
-              src={hero.src}
-              alt="hero"
-              className="ml-auto mr-auto cursor-pointer object-cover h-[30vh] md:h-[60vh] rounded-lg max-w-[1072px] max-h-[574px]"
-              onMouseEnter={() => handleMouseIn()}
-              onMouseLeave={() => handleMouseOut()}
-            />
-            <div className="absolute bottom-0 right-0 translate-y-[-55%] p-2 text-white w-[55%]">
-              <p className="font-bold text-xl sm:text-[45px] paytone">WELCOME TO</p>
-              <p className="font-bold text-[1.3rem] sm:text-[55px] unite paytone">UNITE HACKS</p>
+          <div className="mb-4 flex justify-center ">
+            <div className="relative w-max ">
+              <img
+                src={hero.src}
+                alt="hero"
+                className="ml-auto mr-auto cursor-pointer object-cover h-[30vh] md:h-[60vh] rounded-lg w-full max-w-[1072px] max-h-[574px]"
+                onMouseEnter={() => handleMouseIn()}
+                onMouseLeave={() => handleMouseOut()}
+              />
+              <div className="absolute flex items-center justify-end p-2 text-white bottom-0 w-full">
+                <div className="w-max text-right pr-4">
+                  <p className="font-bold text-[1.7rem] sm:text-[45px] paytone">WELCOME TO</p>
+                  <p className="font-bold text-[2rem] sm:text-[55px] unite paytone">UNITE HACKS</p>
+                </div>
+              </div>
             </div>
           </div>
         )}
