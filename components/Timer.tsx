@@ -9,15 +9,26 @@ const Timer = () => {
   const [hr, setHr] = useState(0);
 
   const countDownDate = new Date("03/31/2023 9:00:00 PST").getTime();
+  // const countDownDate = new Date("04/04/2023 3:26 PST").getTime();
 
   setInterval(() => {
     var today = new Date().getTime();
+
 
     var distance = countDownDate - today;
     setDay(Math.floor(distance / (1000 * 60 * 60 * 24)));
     setHour(Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)));
     setMin(Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60)));
     setSec(Math.floor((distance % (1000 * 60)) / 1000));
+
+    if (distance <= 0) {
+      setDay(0);
+      setHour(0);
+      setMin(0);
+      setSec(0);
+      return
+    }
+
   }, 1000);
   return (
     <div className="">
