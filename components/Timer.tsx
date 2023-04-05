@@ -8,7 +8,7 @@ const Timer = () => {
   const [sec, setSec] = useState(0);
   const [hr, setHr] = useState(0);
 
-  const countDownDate = new Date("03/31/2023 9:00:00 PST").getTime();
+  const countDownDate = new Date("06/22/2023 9:00:00 PST").getTime();
   // const countDownDate = new Date("04/04/2023 3:26 PST").getTime();
 
   setInterval(() => {
