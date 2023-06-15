@@ -8,6 +8,7 @@ import Footer from "../components/Footer";
 import Sponsors from "../components/Sponsors";
 import PrevHack from "../components/PrevHack";
 import Flipper from "../components/Flipper";
+import ComingSoon from "../components/ComingSoon";
 
 const Home: NextPage = () => {
   return (
@@ -17,7 +18,7 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Flipper />
-      <Timer />
+      <ComingSoon />
       <Community />
       <Schedule />
       <PrevHack />
