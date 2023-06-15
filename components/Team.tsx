@@ -26,6 +26,11 @@ const team = [
     name: "Manish",
     desc: "he/him",
     image: "manny.jpg",
+  },
+  {
+    name: "Yalamber",
+    desc: "he/him",
+    image: "yalamber.jpg",
   }
 ];
 
