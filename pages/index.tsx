@@ -9,6 +9,7 @@ import Sponsors from "../components/Sponsors";
 import PrevHack from "../components/PrevHack";
 import Flipper from "../components/Flipper";
 import ComingSoon from "../components/ComingSoon";
+import Signup from "../components/Signup";
 
 const Home: NextPage = () => {
   return (
@@ -19,6 +20,7 @@ const Home: NextPage = () => {
       </Head>
       <Flipper />
       <ComingSoon />
+      <Signup/>
       <Community />
       <Schedule />
       <PrevHack />
