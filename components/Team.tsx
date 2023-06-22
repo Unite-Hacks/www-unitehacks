@@ -33,6 +33,11 @@ const team = [
     image: "yalamber.jpg",
   },
   {
+    name: "Ashish",
+    desc: "he/him",
+    image: "yalamber.jpg",
+  },
+  {
     name: "David",
     desc: 'he/him',
     image: 'david.jpg',
