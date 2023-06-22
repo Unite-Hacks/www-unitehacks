@@ -42,8 +42,8 @@ const Schedule = () => {
           </div>
           <div className="w-[90%] mx-auto">
             {faqs.map((el: any, i: any) => (
-              <div key={i}>
-                <h4 className="font-extrabold text-white text-2xl paytone"
+              <div key={i} className="py-2">
+                <h4 className="font-extrabold text-white text-2xl paytone py-1"
                   style={{ fontSize: "min(6vw, 38.5px)" }}
                 >{el.que}</h4>
                 <p className="text-white" style={{ fontSize: "min(5vw, 32.5px)" }}>{el.ans}</p>
