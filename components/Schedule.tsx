@@ -4,27 +4,32 @@ const Schedule = () => {
   const faqs: any = [
     {
       que: "THE LOCATION",
-      ans: "San Francisco Bay Area"
+      ans: "Circuit Launch: 8000 Edgewater Dr, Oakland, CA 94621",
+      link: "https://goo.gl/maps/kWM68jmNXJBnX1Zd6",
     },
     {
       que: "WHAT IS A HACKATHON?",
-      ans: "An event where students gather to code projects!"
+      ans: "An event where students gather to code projects!",
+      link: null,
     },
     {
       que: "EXPERIENCE?",
-      ans: "None needed! As long as you are 14-19 years old, you are welcome"
+      ans: "None needed! As long as you are 13-18 years old, you are welcome",
     },
     {
       que: "COST?",
-      ans: "Absolutely free! We’ll have meals, snacks, and beverages, swags, prizes, and fun mini-events."
+      ans: "Absolutely free! We’ll have meals, snacks, and beverages, swags, prizes, and fun mini-events.",
+      link: null,
     },
     {
       que: "COVID PRECAUTIONS",
-      ans: "Please show proof of vaccination"
+      ans: "Please show proof of vaccination",
+      link: null,
     },
     {
       que: "OTHER QUESTIONS?",
-      ans: "Email us at team@unitehacks.com"
+      ans: "Email us at team@unitehacks.com",
+      link: null,
     },
   ]
 
@@ -46,7 +51,11 @@ const Schedule = () => {
                 <h4 className="font-extrabold text-white text-2xl paytone py-1"
                   style={{ fontSize: "min(6vw, 38.5px)" }}
                 >{el.que}</h4>
-                <p className="text-white" style={{ fontSize: "min(5vw, 32.5px)" }}>{el.ans}</p>
+                {
+                    el.link ? 
+                    <a href={el.link} target="_blank" className="underline text-white" style={{ fontSize: "min(5vw, 32.5px)" }}>{el.ans}</a> :
+                    <p className="text-white" style={{ fontSize: "min(5vw, 32.5px)" }}>{el.ans}</p>
+                }
               </div>
             ))}
           </div>

@@ -8,7 +8,7 @@ const Timer = () => {
   const [sec, setSec] = useState(0);
   const [hr, setHr] = useState(0);
 
-  const countDownDate = new Date("06/22/2023 9:00:00 PST").getTime();
+  const countDownDate = new Date("09/09/2023 9:00:00 PST").getTime();
   // const countDownDate = new Date("04/04/2023 3:26 PST").getTime();
 
   setInterval(() => {
@@ -33,7 +33,7 @@ const Timer = () => {
   return (
     <div className="">
       {/* <div className="flex  text-center justify-center bg-white sm:h-[22vh] sm:mt-5 h-20 pt-5 mt-2  sm:gap-2 gap-2"> */}
-      <div className="flex space-x-1 py-3 justify-center bg-white">
+      <div className="flex space-x-1 py-2 justify-center bg-white">
         <div>
           <div className="flex items-center gap-2">
             <p className="sm:text-[52px] text-5xl font-bold time paytone">{day < 10 ? `0${day}` : day}</p>

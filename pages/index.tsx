@@ -20,6 +20,7 @@ const Home: NextPage = () => {
       </Head>
       <Flipper />
       <ComingSoon />
+      <Timer/>
       <Signup/>
       <Community />
       <Schedule />
