@@ -26,7 +26,7 @@ const Footer = () => {
           </div>
         </div>
         <div className='footer font-bold text-[24px]'>United by Tech</div>
-        <div>ⓒ unite hacks 2022</div>
+        <div>Made with 💚 | ⓒ Unite Hacks 2023</div>
       </div>
     </div>
   )
