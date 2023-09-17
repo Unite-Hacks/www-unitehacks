@@ -16,17 +16,17 @@ const Footer = () => {
           </div>
           <div>
             <a href='https://www.instagram.com/unitehacks/'>
-            <Image src={instagram} alt='insta' />
+            <Image src={instagram} alt='instagram' />
             </a>
           </div>
           <div>
             <a href='https://www.linkedin.com/company/unite-hacks/'>
-            <Image src={linkedin} alt='linkd' />
+            <Image src={linkedin} alt='linkedin' />
             </a>
           </div>
         </div>
         <div className='footer font-bold text-[24px]'>United by Tech</div>
-        <div>Made with 💚 | ⓒ Unite Hacks 2023</div>
+        <div>Made with 💚 | ⓒ Unite Hacks 2023 </div>
       </div>
     </div>
   )

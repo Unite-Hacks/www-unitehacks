@@ -14,7 +14,7 @@ const Sponsors = () => {
           </a>
           <a href="https://bank.hackclub.com/donations/start/unite-hacks">
             <button className="bg-white px-2 text-[#2A4720] rounded-[4px] py-1">
-              Make a donation
+              Make a Donation
             </button>
           </a>
         </div>

@@ -10,7 +10,7 @@ const Community = () => {
           className="sm:px-10 lg:hidden font-bold text-white sm:text-[52px] text-4xl text-center text-[24px] paytone"
           style={{ fontSize: "min(8vw, 48px)" }}
         >
-          Join Our Community
+          Join Our Community!
         </div>
         <div
           className="hidden lg:block sm:px-10 font-bold text-white leading-tight sm:text-[52px] text-4xl text-center text-[24px] paytone"
