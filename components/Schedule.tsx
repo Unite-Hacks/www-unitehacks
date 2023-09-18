@@ -9,7 +9,7 @@ const Schedule = () => {
     },
     {
       que: "WHAT IS A HACKATHON?",
-      ans: "An event where students gather to code projects!",
+      ans: "An event where students gather to program projects!",
       link: null,
     },
     {
@@ -18,7 +18,7 @@ const Schedule = () => {
     },
     {
       que: "COST?",
-      ans: "Absolutely free! We’ll have meals, snacks, and beverages, swags, prizes, and fun mini-events.",
+      ans: "Absolutely free! We’ll have meals, snacks, and beverages, swag, prizes, and fun mini-events.",
       link: null,
     },
     {
@@ -54,59 +54,59 @@ const Schedule = () => {
                 </thead>
                 <tbody>
                   <tr>
-                    <td>8:30 - 9:30</td>
+                    <td>8:30 - 9:30 AM</td>
                     <td>Registration</td>
                   </tr>
                   <tr>
-                    <td>9:45 - 10:15</td>
+                    <td>9:45 - 10:15 AM</td>
                     <td>Opening Ceremony</td>
                   </tr>
                   <tr>
-                    <td>10:15 - 10:30</td>
+                    <td>10:15 - 10:30 AM</td>
                     <td>Team Formation</td>
                   </tr>
                   <tr>
-                    <td>10:30 - 11:00</td>
+                    <td>10:30 - 11:00 AM</td>
                     <td>Cup Stacking</td>
                   </tr>
                   <tr>
-                    <td>11:30 - 12:30</td>
+                    <td>11:30 - 12:30 PM</td>
                     <td>Intro Java Workshop</td>
                   </tr>
                   <tr>
-                    <td>1:00 - 2:00</td>
+                    <td>1:00 - 2:00 PM</td>
                     <td>Lunch</td>
                   </tr>
                   <tr>
-                    <td>2:00 - 3:00</td>
+                    <td>2:00 - 3:00 PM </td>
                     <td>Alex’s Workshop</td>
                   </tr>
                   <tr>
-                    <td>4:00 - 5:00</td>
+                    <td>4:00 - 5:00 PM</td>
                     <td>Ivoine's Worksop</td>
                   </tr>
                   <tr>
-                    <td>6:00 - 7:00</td>
+                    <td>6:00 - 7:00 PM</td>
                     <td>Dinner</td>
                   </tr>
                   <tr>
-                    <td>7:00</td>
+                    <td>7:00 PM</td>
                     <td>Submission</td>
                   </tr>
                   <tr>
-                    <td>7:00 - 7:30</td>
+                    <td>7:00 - 7:30 PM</td>
                     <td>Chess.com Tournament</td>
                   </tr>
                   <tr>
-                    <td>7:30 - 8:30</td>
+                    <td>7:30 - 8:30 PM</td>
                     <td>Presentations</td>
                   </tr>
                   <tr>
-                    <td>8:30 - 9:00</td>
+                    <td>8:30 - 9:00 PM</td>
                     <td>Musical Chairs</td>
                   </tr>
                   <tr>
-                    <td>9:00</td>
+                    <td>9:00 PM</td>
                     <td>Closing Ceremony</td>
                   </tr>
                 </tbody>

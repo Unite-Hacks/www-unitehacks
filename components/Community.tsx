@@ -16,7 +16,7 @@ const Community = () => {
           className="hidden lg:block sm:px-10 font-bold text-white leading-tight sm:text-[52px] text-4xl text-center text-[24px] paytone"
           style={{ fontSize: "min(8vw, 48px)" }}
         >
-          Join Our <br /> Community
+          Join Our <br /> Community!
         </div>
 
         <div className="sm:mt-0 mt-5">
@@ -30,7 +30,7 @@ const Community = () => {
             <li>Design and build something cool</li>
             <li className="mt-2">Meet people & make connections</li>
             <li className="mt-2">Learn new skills</li>
-            <li className="mt-2">Win prizes & get free food</li>
+            <li className="mt-2">Win prizes & eat free food</li>
           </ul>
         </div>
       </div>

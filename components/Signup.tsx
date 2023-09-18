@@ -7,7 +7,7 @@ const Signup = () => {
     <div className="flex py-10 justify-center bg-green-200">
       <div className="flex items-center">
         <span className="sm:text-[30px] py-4 text-2xl font-bold time paytone text-white">
-          <Link href="https://register.unitehacks.com/">Sign Up</Link>
+          <p>Sign Ups Closed! - See you next time!</p>
         </span>
       </div>
     </div>
