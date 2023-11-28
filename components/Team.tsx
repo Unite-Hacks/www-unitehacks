@@ -52,6 +52,11 @@ const team = [
       name:"Luis",
       desc:"he/him",
       image:"luis.jpg"
+    },
+     {
+      name:"Johnny",
+      desc:"he/him",
+      image:"johnny.webp"
     }
 ];
 
